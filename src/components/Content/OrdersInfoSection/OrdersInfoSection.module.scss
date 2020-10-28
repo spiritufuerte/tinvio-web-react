@@ -1,0 +1,69 @@
+.ordersSection {
+  height: 1620px;
+  font-family: Manrope;
+
+  .partnersWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .desktopVersionWrapper {
+      position: relative;
+      width: 984px;
+      height: 550px;
+      background-size: cover;
+      background-image: url('../../../assets/image/desktop@3x.png');
+      margin-top: -90px;
+    }
+
+    .infoPartners {
+      font-size: 30px;
+      font-weight: 600;
+      color: #21272e;
+      margin-top: 60px;
+    }
+
+    .imagesWrapper {
+      display: flex;
+      flex-direction: row;
+      margin-top: 60px;
+      justify-content: center;
+
+      .partnerImageWrapper {
+        width: 150px;
+        height: 100px;
+        object-fit: contain;
+        margin: 0 27px;
+
+        img {
+          object-fit: contain;
+          width: 150px;
+          height: 100px;
+        }
+      }
+    }
+  }
+
+  .orderText {
+    width: 381px;
+    margin-top: 300px;
+
+    .orderHeaderText{
+      width: 290px;
+      color: #21272e;
+      font-size: 32px;
+      font-weight: bold;
+      margin-left: 77px;
+    }
+
+    .mainOrderText{
+      margin-left: 77px;
+      width: 381px;
+      color: #787c80;
+      text-align: justify;
+      font-size: 17px;
+      font-weight: 600;
+    }
+
+  }
+}

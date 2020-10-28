@@ -14,7 +14,8 @@ const Header = () => {
                         <div className={classes.color_logo}>
                         <img src={logoColor} alt="Logo" title="Logo"/>
                     </div>
-                        <div className={classes.Rectangle}></div>
+                        <div className={classes.Rectangle}>
+                        </div>
                         <NavBar/>
                     </div>
                     <button>Get Started</button>

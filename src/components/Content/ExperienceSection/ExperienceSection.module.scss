@@ -1,0 +1,77 @@
+.section {
+  margin-top: 90px;
+
+
+}
+
+.textBlock {
+  display: flex;
+  flex-direction: row;
+}
+
+.sectionHeader {
+  font-family: Manrope;
+  font-size: 32px;
+  color: #21272e;
+  font-weight: bold;
+  width: 440px;
+  margin-left: 126px;
+}
+
+.sectionText {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.67;
+  color: #787c80;
+  width: 449px;
+  margin-left: 140px;
+  margin-top: 20px;
+}
+
+.card {
+  width: 316px;
+  height: 552px;
+  border-radius: 52px;
+  background-color: #e1eff0;
+
+  img {
+    width: 300px;
+    margin-left: -38px;
+    margin-top: 40px;
+  }
+}
+
+.cardsBlock {
+  margin: 93px 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  ;
+}
+
+.cardText{
+  opacity: 0.4;
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  color: #21272e;
+}
+
+.cardTextWrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: -30px;
+}
+
+.imgArrowWrapper{
+  width: 30px;
+
+  img{
+    width: 30px;
+    margin: 0 0 -5px;
+  }
+}
