@@ -1,9 +1,10 @@
 .App {
-  width: 1280px;
+  max-width: 1280px;
   ;
 }
 
 .linesReverseWrapper{
+  z-index: -1;
   position: absolute;
   width: 958px;
   height: 1516px;

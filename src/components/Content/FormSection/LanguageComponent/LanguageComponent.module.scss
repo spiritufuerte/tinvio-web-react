@@ -1,0 +1,22 @@
+.languageBlock {
+  margin-top: 20px;
+  width: 288px;
+  height: 150px;
+  border-radius: 8px;
+  box-shadow: 0 6px 14px -6px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.36;
+  color: #21272e;
+  justify-content: space-around;
+  align-items: center;
+
+  .country {
+    margin: 4px 0;
+  }
+}
+

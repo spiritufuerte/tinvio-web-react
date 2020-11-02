@@ -5,22 +5,22 @@ import NavBar from "./NavBar/NavBar";
 
 
 const Header = () => {
-
-
     return (
-            <div className={classes.wrapper}>
-                <div className={classes.header_block}>
-                    <div className={classes.nav_wrapper}>
-                        <div className={classes.color_logo}>
+        <div className={classes.wrapper}>
+            <div className={classes.header_block}>
+                <div className={classes.nav_wrapper}>
+                    <div className={classes.color_logo}>
                         <img src={logoColor} alt="Logo" title="Logo"/>
                     </div>
-                        <div className={classes.Rectangle}>
-                        </div>
+                    <div className={classes.Rectangle}>
+                    </div>
+                    <div className={classes.navBarWrapper}>
                         <NavBar/>
                     </div>
-                    <button>Get Started</button>
                 </div>
+                <button>Get Started</button>
             </div>
+        </div>
     )
 }
 
