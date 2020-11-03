@@ -10,22 +10,16 @@ import googleStoreImg from '../../assets/image/google-play-badge.svg';
 const Footer = () => {
     return (
         <div className={classes.wrapper}>
-            <div className={classes.header_block}>
+            <div className={classes.footer}>
                 <div className={classes.nav_wrapper}>
-                    <div className={classes.color_logo}>
-                        <img src={logoWhite} alt="Logo" title="Logo"/>
+                    <img src={logoWhite} alt="Logo" title="Logo"/>
+                    <div className={classes.line}>
                     </div>
-                    <div className={classes.Rectangle}>
-                    </div>
-                    <div className={classes.navBarWrapper}>
-                        <FooterNavBar/>
-                    </div>
-                    <div className={classes.Rectangle}>
+                    <FooterNavBar/>
+                    <div className={classes.line}>
                     </div>
                     <div className={classes.social_logo}>
                         <img src={logoInst} alt="Logo" title="Logo"/>
-                    </div>
-                    <div className={classes.social_logo}>
                         <img src={logoLink} alt="Logo" title="Logo"/>
                     </div>
                 </div>
@@ -37,7 +31,7 @@ const Footer = () => {
                         <img src={googleStoreImg} alt="Logo" title="Logo"/>
                     </div>
                 </div>
-                <div className={classes.info_company}>© Tinvio™ 2019. All Rights Reserved</div>
+                <p>© Tinvio™ 2019. All Rights Reserved</p>
             </div>
         </div>
     )

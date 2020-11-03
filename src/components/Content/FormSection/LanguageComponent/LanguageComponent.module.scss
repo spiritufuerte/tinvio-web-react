@@ -1,4 +1,4 @@
-.languageBlock {
+.language_block {
   margin-top: 20px;
   width: 288px;
   height: 150px;
@@ -13,10 +13,14 @@
   line-height: 1.36;
   color: #21272e;
   justify-content: space-around;
-  align-items: center;
 
-  .country {
-    margin: 4px 0;
+
+  p {
+    text-align: left;
+    color: #21272e;
+    align-items: center;
+    position: static;
+    margin-top: 20px;
   }
 }
 

@@ -9,12 +9,10 @@ const Header = () => {
         <div className={classes.wrapper}>
             <div className={classes.header_block}>
                 <div className={classes.nav_wrapper}>
-                    <div className={classes.color_logo}>
-                        <img src={logoColor} alt="Logo" title="Logo"/>
+                    <img src={logoColor} alt="Logo" title="Logo"/>
+                    <div className={classes.line}>
                     </div>
-                    <div className={classes.Rectangle}>
-                    </div>
-                    <div className={classes.navBarWrapper}>
+                    <div className={classes.navbar_wrapper}>
                         <NavBar/>
                     </div>
                 </div>

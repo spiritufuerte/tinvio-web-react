@@ -10,29 +10,25 @@ import CarouselComponent from "./CarouselComponent/CarouselComponent";
 
 const OrdersInfoSection = () => {
     return (
-        <section className={classes.ordersSection}>
-            <div className={classes.partnersWrapper}>
-                <div className={classes.desktopVersionWrapper}>
+        <section className={classes.section}>
+            <div className={classes.partners_wrapper}>
+                <div className={classes.desktop_img}>
                 </div>
-                <div className={classes.infoPartners}>Trusted by 1000+ partners across APAC</div>
-                <div className={classes.imagesWrapper}>
-                    <div className={classes.partnerImageWrapper}>
-                        <img src={chickenLogo} alt="Lines" title="Lines"/></div>
-                    <div className={classes.partnerImageWrapper}><img src={joliebeanLogo} alt="Lines" title="Lines"/>
-                    </div>
-                    <div className={classes.partnerImageWrapper}><img src={bensLogo} alt="Lines" title="Lines"/>
-                    </div>
-                    <div className={classes.partnerImageWrapper}><img src={simplyLogo} alt="Lines" title="Lines"/>
-                    </div>
-                    <div className={classes.partnerImageWrapper}><img src={italianLogo} alt="Lines" title="Lines"/>
-                    </div>
+                <h1>Trusted by 1000+ partners across APAC</h1>
+                <div className={classes.images_wrapper}>
+                    <img src={chickenLogo} alt="Lines" title="Lines"/>
+                    <img src={joliebeanLogo} alt="Lines" title="Lines"/>
+                    <img src={bensLogo} alt="Lines" title="Lines"/>
+                    <img src={simplyLogo} alt="Lines" title="Lines"/>
+                    <img src={italianLogo} alt="Lines" title="Lines"/>
                 </div>
             </div>
-            <div className={classes.orderText}>
-                <div className={classes.orderHeaderText}>All your orders in one place</div>
-                <div className={classes.mainOrderText}>Say no more to chunky emails and messy WhatsApp messages. Receive and manage your orders in one
+            <div className={classes.text_block}>
+                <h1>All your orders in one place</h1>
+                <p>Say no more to chunky emails and messy WhatsApp messages. Receive
+                    and manage your orders in one
                     platform
-                </div>
+                </p>
             </div>
             <CarouselComponent/>
         </section>

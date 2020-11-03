@@ -8,30 +8,26 @@ import LanguageComponent from "./LanguageComponent/LanguageComponent";
 const FormSection = () => {
     return (
         <section className={classes.section}>
-            <div className={classes.bigCircle}></div>
-            <div className={classes.leftPartWrapper}>
-                <div className={classes.hint}>LET'S DO THIS</div>
-                <div className={classes.mainText}>Fill up the form and we’ll get in touch within
+            <div className={classes.big_circle}></div>
+            <div className={classes.left_part}>
+                <h3>LET'S DO THIS</h3>
+                <h1>Fill up the form and we’ll get in touch within
                     a few hours
+                </h1>
+                <div className={classes.pink_circle}></div>
+                <div className={classes.left_arrow_block}>
+                    <p>Or meet us in</p>
+                    <img src={arrowRight} title='arrow' alt='some'/>
                 </div>
-                <div className={classes.pinkCircle}></div>
-                <div className={classes.componentWrapper}>
-                    <div className={classes.textBefore}>Or meet us in</div>
-                    <div className={classes.arrowRightWrapper}>
-                        <img src={arrowRight} title='arrow'/>
-                    </div>
-                </div>
-                <div className={classes.blueCircle}></div>
+                <div className={classes.blue_circle}></div>
                 <LanguageComponent/>
             </div>
             <div>
-                <div className={classes.componentWrapper}>
-                    <div className={classes.arrowWrapper}>
-                        <img src={arrow} title='arrow'/>
-                    </div>
-                    <div className={classes.textAfter}>Let’s get to know each other</div>
+                <div className={classes.right_arrow_block}>
+                        <img src={arrow} title='arrow' alt='some'/>
+                    <p>Let’s get to know each other</p>
                 </div>
-                <div className={classes.form}>
+                <div className={classes.contact_form}>
                     <ContactForm/>
                 </div>
             </div>

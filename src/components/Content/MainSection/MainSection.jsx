@@ -4,17 +4,17 @@ import classes from './MainSection.module.scss';
 
 const MainSection = () => {
     return(
-        <section className={classes.mainSection}>
-            <div className={classes.boxesImageWrapper}>
+        <section className={classes.section}>
+            <div className={classes.boxes_image_wrapper}>
             </div>
-            <div className={classes.fruitsImageWrapper}>
+            <div className={classes.fruits_image_wrapper}>
             </div>
-            <div className={classes.title}>FOR A SMARTER SUPPLY CHAIN</div>
-            <div className={classes.titleInfo}>
+            <h1>FOR A SMARTER SUPPLY CHAIN</h1>
+            <h2>
                 Take your business to the next level with Tinvio’s Supplier Platform
-            </div>
+            </h2>
             <button>Get Started Now</button>
-            <div className={classes.smallText}>Yes, it’s free 🎉</div>
+            <p>Yes, it’s free 🎉</p>
         </section>
     )
 }

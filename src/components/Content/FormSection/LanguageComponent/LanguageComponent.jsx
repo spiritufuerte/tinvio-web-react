@@ -3,18 +3,18 @@ import classes from "./LanguageComponent.module.scss";
 
 const LanguageComponent = () => {
     return (
-        <div className={classes.languageBlock}>
+        <div className={classes.language_block}>
             <div>
-                <div className={classes.country}>Singapore</div>
-                <div className={classes.country}>Australia</div>
-                <div className={classes.country}>Hong Kong</div>
-                <div className={classes.country}>India</div>
+                <p>Singapore</p>
+                <p>Australia</p>
+                <p>Hong Kong</p>
+                <p>India</p>
             </div>
             <div>
-                <div className={classes.country}>Indonesia</div>
-                <div className={classes.country}>Taiwan</div>
-                <div className={classes.country}>Thailand</div>
-                <div className={classes.country}>Vietnam</div>
+                <p>Indonesia</p>
+                <p>Taiwan</p>
+                <p>Thailand</p>
+                <p>Vietnam</p>
             </div>
         </div>
     )

@@ -10,39 +10,33 @@ import check from "../../../assets/image/icon-24-check.svg";
 const ExperienceSection = () => {
     return (
         <section className={classes.section}>
-            <div className={classes.textBlock}>
-                <div className={classes.sectionHeader}>Seamless Ordering Experience</div>
-                <div className={classes.sectionText}>Increase your sales by 30% with a better checkout experience. Your
+            <div className={classes.text_block}>
+                <h1>Seamless Ordering Experience</h1>
+                <p>Increase your sales by 30% with a better checkout experience. Your
                     customers can place orders easily
                     with a few taps on the item list
-                </div>
+                </p>
             </div>
-            <div className={classes.cardsBlock}>
+            <div className={classes.cards_wrapper}>
                 <div className={classes.card}>
-                    <img src={firstScreen} title='first image'/>
-                    <div className={classes.cardTextWrapper}>
-                        <div className={classes.cardText}> Select Items</div>
-                        <div className={classes.imgArrowWrapper}>
-                            <img src={arrow} title='third image'/>
-                        </div>
+                    <img src={firstScreen} title='first image' alt='some'/>
+                    <div className={classes.card_text_wrapper}>
+                        <p> Select Items</p>
+                        <img src={arrow} title='third image' alt='some'/>
                     </div>
                 </div>
                 <div className={classes.card}>
-                    <img src={secondScreen} title='second image'/>
-                    <div className={classes.cardTextWrapper}>
-                        <div className={classes.cardText}>Review Order</div>
-                        <div className={classes.imgArrowWrapper}>
-                            <img src={arrow} title='third image'/>
-                        </div>
+                    <img src={secondScreen} title='second image' alt='some'/>
+                    <div className={classes.card_text_wrapper}>
+                        <p>Review Order</p>
+                        <img src={arrow} title='third image' alt='some'/>
                     </div>
                 </div>
                 <div className={classes.card}>
-                    <img src={thirdScreen} title='third image'/>
-                    <div className={classes.cardTextWrapper}>
-                        <div className={classes.cardText}>Send Order</div>
-                        <div className={classes.imgArrowWrapper}>
-                            <img src={check} title='third image'/>
-                        </div>
+                    <img src={thirdScreen} title='third image' alt='some'/>
+                    <div className={classes.card_text_wrapper}>
+                        <p>Send Order</p>
+                        <img src={check} title='third image' alt='some'/>
                     </div>
                 </div>
             </div>

@@ -10,10 +10,10 @@ import lines from './assets/image/lines.svg';
 export function App() {
     return (
         <div className="App">
-            <div className={classes.linesWrapper}>
+            <div className={classes.lines_wrapper}>
                 <img src={linesCopy} alt="Lines Copy" title="Lines Copy"/>
             </div>
-            <div className={classes.linesReverseWrapper}>
+            <div className={classes.lines_reverse_wrapper}>
                 <img src={lines} alt="Lines" title="Lines"/>
             </div>
             <Header/>

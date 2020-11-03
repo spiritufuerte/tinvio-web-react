@@ -10,7 +10,7 @@ import FormSection from "./FormSection/FormSection";
 
 const Content = () => {
     return (
-        <main className={classes.mainWrapper}>
+        <main className={classes.main_wrapper}>
             <MainSection/>
             <OrdersInfoSection/>
             <CommunicationSection/>

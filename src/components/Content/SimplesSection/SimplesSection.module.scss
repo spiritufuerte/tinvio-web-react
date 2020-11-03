@@ -2,8 +2,9 @@
   background-color: #fcfdff;
   font-family: Manrope;
   padding-bottom: 90px;
+  width: 1280px;
 
-  .questionText {
+  h2 {
     padding-top: 100px;
     text-align: center;
     font-size: 13px;
@@ -12,58 +13,53 @@
     color: #f43939;
   }
 
-  .headerText {
+  h1 {
     font-size: 32px;
     font-weight: bold;
     text-align: center;
     color: #21272e;
   }
 
-  .rectangle {
+  .line {
     width: 272px;
     height: 2px;
     opacity: 0.1;
     background-color: #21272e;
   }
 
-  .imagesWrapper{
+  .images_wrapper{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     margin-top: 70px;
 
-    .imageWrapper{
+    img {
       width: 70px;
       margin: 0 35px;
-
-      img{
-        width: 70px;
-      }
     }
   }
 
-  .stepsInfoWrapper {
+  .text_wrapper {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
 
-
-
-    .stepText {
+    .step_info {
       margin: 0 95px;
       text-align: center;
 
-      .stepHeader {
-        font-family: Manrope;
+      h3 {
         font-size: 18px;
         font-weight: bold;
         text-align: center;
         color: #21272e;
       }
-      .stepInfo {
+      p {
+        position: static;
+        margin-top: 0;
         font-size: 14px;
         font-weight: 600;
         text-align: center;

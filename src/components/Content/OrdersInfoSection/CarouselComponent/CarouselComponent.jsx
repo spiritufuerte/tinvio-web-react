@@ -34,22 +34,22 @@ const CarouselComponent = (props) => {
     return (
         <div className={classes.carousel}>
             <div className={classes.circles}>
-                <div className={classes.circlesWrapper}>
+                <div className={classes.circles_wrapper}>
                     <div onClick={prevSlideHandler} className={classes.circle}>
                         <img src={arrowLeft} alt="arrowLeft" title="arrowLeft"/>
                     </div>
-                    <div className={classes.smallCirclesWrapper}>
-                        <div className={classes.smallCircle}></div>
-                        <div className={classes.smallCircle}></div>
-                        <div className={classes.smallCircle}></div>
+                    <div className={classes.indicator_wrapper}>
+                        <div className={classes.indicator}></div>
+                        <div className={classes.indicator}></div>
+                        <div className={classes.indicator}></div>
                     </div>
                     <div onClick={nextSlideHandler} className={classes.circle} >
                         <img src={arrowRight} alt="arrowRight" title="arrowRight"/>
                     </div>
                 </div>
             </div>
-            <div className={classes.carouselImages}>
-                <img src={imagesUrl[currentImageIndex]}/>
+            <div className={classes.carousel_img_wrapper}>
+                <img src={imagesUrl[currentImageIndex]} alt='some'/>
             </div>
         </div>
     )

@@ -1,69 +1,137 @@
-.ordersSection {
-  height: 1620px;
-  font-family: Manrope;
+@media (min-width: 769px) {
+  .section {
 
-  .partnersWrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    .desktopVersionWrapper {
+    .desktop_img {
       position: relative;
-      width: 984px;
-      height: 550px;
-      background-size: cover;
-      background-image: url('../../../assets/image/desktop@3x.png');
-      margin-top: -90px;
+      width: 1280px;
+      height: 679px;
+      margin-top: -124px;
     }
 
-    .infoPartners {
-      font-size: 30px;
-      font-weight: 600;
-      color: #21272e;
-      margin-top: 60px;
+    .partners_wrapper {
+      h1 {
+        font-size: 40px;
+        margin-top: 132px;
+      }
     }
 
-    .imagesWrapper {
-      display: flex;
-      flex-direction: row;
-      margin-top: 60px;
-      justify-content: center;
 
-      .partnerImageWrapper {
-        width: 150px;
-        height: 100px;
-        object-fit: contain;
-        margin: 0 27px;
+    .images_wrapper {
+      margin-top: 10px;
 
-        img {
-          object-fit: contain;
-          width: 150px;
-          height: 100px;
-        }
+      img {
+        width: 195px;
+        height: 125px;
+      }
+    }
+
+    .text_block {
+      margin-left: 100px;
+      margin-top: 235px;
+
+      h1 {
+        font-size: 39px;
+        width: 350px;
+      }
+
+      p {
+        width: 388px;
+        font-size: 19px;
       }
     }
   }
 
-  .orderText {
-    width: 381px;
-    margin-top: 300px;
+}
 
-    .orderHeaderText{
-      width: 290px;
-      color: #21272e;
-      font-size: 32px;
-      font-weight: bold;
-      margin-left: 77px;
+@media (min-width: 1025px) {
+  .section {
+
+    .desktop_img {
+      width: 984px;
+      height: 550px;
+      margin-top: -90px;
     }
 
-    .mainOrderText{
+    .partners_wrapper {
+      h1 {
+        font-size: 30px;
+        margin-top: 60px;
+      }
+    }
+
+    .images_wrapper {
+      margin-top: 60px;
+
+      img {
+        width: 150px;
+        height: 100px;
+      }
+    }
+
+    .text_block {
       margin-left: 77px;
-      width: 381px;
-      color: #787c80;
-      text-align: justify;
-      font-size: 17px;
+      margin-top: 300px;
+
+      h1 {
+        font-size: 32px;
+        width: 290px;
+      }
+
+      p {
+        width: 381px;
+        font-size: 17px;
+      }
+    }
+  }
+}
+
+.section {
+  width: 1280px;
+  height: 1620px;
+  font-family: Manrope;
+
+  .partners_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .desktop_img {
+      position: relative;
+      background-size: cover;
+      background-image: url('../../../assets/image/desktop@3x.png');
+    }
+
+    h1 {
       font-weight: 600;
+      color: #21272e;
     }
 
+    .images_wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      img {
+        object-fit: contain;
+        margin: 0 27px;
+      }
+    }
+  }
+
+  .text_block {
+    width: 381px;
+
+    h1 {
+      color: #21272e;
+      font-weight: bold;
+    }
+
+    p {
+      text-align: left;
+      position: static;
+      color: #787c80;
+      font-weight: 600;
+      margin-top: 0;
+    }
   }
 }

@@ -1,38 +1,58 @@
 %textHandsOfStyle {
   opacity: 0.9;
   font-family: 'Patrick Hand', cursive;
-  font-size: 20px;
   color: #21272e;
+}
+
+
+@media (min-width: 769px) {
+
+  %textHandsOfStyle{
+    font-size: 24px;
+  }
+
+  .section {
+    height: 890px;
+
+    .right_arrow_block {
+      margin-left: 90px;
+    }
+
+    .contact_form {
+      margin-top: 140px;
+      margin-left: 250px;
+    }
+  }
+}
+
+@media (min-width: 1025px) {
+
+  %textHandsOfStyle{
+    font-size: 20px;
+  }
+
+  .section {
+    height: 816px;
+
+    .right_arrow_block {
+      margin-left: 0;
+    }
+
+    .contact_form {
+      margin-top: 10px;
+      margin-left: 150px;
+    }
+  }
 }
 
 .section {
   width: 1280px;
-  height: 816px;
   background-image: linear-gradient(to top, #fafafc, rgba(255, 255, 255, 0.45));
   display: flex;
   flex-direction: row;
   font-family: Manrope;
 
-  .leftPartWrapper {
-    margin-left: 70px;
-    margin-top: 150px;
-
-    .hint {
-      font-size: 13px;
-      font-weight: bold;
-      letter-spacing: 1px;
-      color: #f43939;
-    }
-
-    .mainText {
-      width: 467px;
-      font-size: 38px;
-      font-weight: bold;
-      color: #21272e;
-    }
-  }
-
-  .bigCircle {
+  .big_circle {
     position: absolute;
     z-index: -1;
     width: 400px;
@@ -43,69 +63,85 @@
     margin-top: 90px;
   }
 
-  .blueCircle {
-    width: 160px;
-    height: 160px;
-    position: absolute;
-    z-index: -1;
-    background: #87CEEB;
-    border-radius: 50%;
-    margin-top: 20px;
-    margin-left: -40px;
+  .left_part {
+    margin-left: 70px;
+    margin-top: 150px;
+
+    h3 {
+      font-size: 13px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      color: #f43939;
+    }
+
+    h1 {
+      width: 467px;
+      font-size: 38px;
+      font-weight: bold;
+      color: #21272e;
+    }
+
+    .pink_circle {
+      position: absolute;
+      z-index: -1;
+      width: 280px;
+      height: 280px;
+      background: #FFC2AC;
+      border-radius: 50%;
+      margin-left: 270px;
+      margin-top: -113px;
+    }
+
+    .left_arrow_block {
+      display: flex;
+      flex-direction: row;
+
+      p {
+        text-align: left;
+        position: static;
+        margin-top: 20px;
+        @extend %textHandsOfStyle;
+      }
+
+      img {
+        margin-left: -90px;
+        width: 120px;
+        height: 50px;
+      }
+    }
+
+    .blue_circle {
+      width: 160px;
+      height: 160px;
+      position: absolute;
+      z-index: -1;
+      background: #87CEEB;
+      border-radius: 50%;
+      margin-top: 20px;
+      margin-left: -40px;
+    }
   }
 
-  .pinkCircle {
-    position: absolute;
-    z-index: -1;
-    width: 280px;
-    height: 280px;
-    background: #FFC2AC;
-    border-radius: 50%;
-    margin-left: 270px;
-    margin-top: -113px;
-  }
-
-
-  .componentWrapper {
+  .right_arrow_block {
     display: flex;
     flex-direction: row;
 
-    .textAfter {
+    p {
+      text-align: left;
+      position: static;
       margin-left: -80px;
       margin-top: 127px;
       @extend %textHandsOfStyle;
     }
 
-    .textBefore {
-      margin-left: -20px;
-      margin-top: 80px;
-      @extend %textHandsOfStyle;
-
-    }
-  }
-
-  .form {
-    margin-top: 10px;
-    margin-left: 150px;
-  }
-
-  .arrowRightWrapper {
-    width: 110px;
-
     img {
-      width: 110px;
-      margin-top: 60px;
-      margin-left: -80px;
-    }
-  }
-
-  .arrowWrapper {
-    margin-top: 100px;
-    margin-left: 220px;
-    width: 120px;
-
-    img {
+      margin-top: 100px;
+      margin-left: 220px;
       width: 120px;
+      height: 50px;
     }
   }
+}
+.contact_form {
+
 }
