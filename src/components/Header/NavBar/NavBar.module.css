@@ -1,18 +1,14 @@
 @media (min-width: 769px) {
-    .nav a {
-        font-size: 14px;
-        margin-right: 36px;
-    }
+
 }
 
 @media (min-width: 1025px) {
-    .nav a {
-        font-size: 12px;
-        margin-right: 24px;
-    }
+
 }
 
 .nav a{
+    margin-right: 24px;
+    font-size: 12px;
     text-decoration: none;
     height: 17px;
     font-weight: 600;

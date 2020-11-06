@@ -1,34 +1,101 @@
-@media (min-width: 769px) {
+@media (min-width: 361px) {
   .wrapper {
+    width: 768px;
+    height: 211px;
 
     .footer {
+      .nav_wrapper {
+        margin: 0 0 0 45px;
+        padding-top: 48px;
+
+      }
+
+      .images_wrapper {
+        margin: 40px 0 0 275px;
+
+        .store_images {
+          margin-left: 50px;
+        }
+      }
+
+      p {
+        margin: -30px 0px 0px 58px;
+      }
+    }
+  }
+}
+
+@media (min-width: 769px) {
+  .wrapper {
+    width: 1024px;
+    height: 146px;
+
+    .footer {
+      display: flex;
+      flex-direction: row;
       margin-left: 35px;
       margin-right: 35px;
+
+      .nav_wrapper {
+        margin: 0 0 0 0;
+        padding-top: 0;
+      }
+
+      .images_wrapper {
+        margin: 0 0 0 0;
+
+        .store_images {
+          margin-left: 50px;
+        }
+      }
+
+      p {
+        margin-top: 100px;
+      }
     }
   }
 }
 
 @media (min-width: 1025px) {
   .wrapper {
+    width: 1280px;
 
     .footer {
       margin-left: 64px;
       margin-right: 76px;
+
+      .images_wrapper {
+
+        .store_images {
+          margin-left: 240px;
+        }
+      }
     }
   }
 }
 
 .wrapper {
-  width: 1280px;
-  height: 146px;
   background-color: #21272e;
 
   .footer {
-    height: 146px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    height: 100%;
     align-items: center;
+
+    .images_wrapper {
+      display: flex;
+      align-items: center;
+
+      .social_logo {
+        display: flex;
+        flex-direction: row;
+
+        img {
+          width: 20px;
+          height: 20px;
+          margin: 0 10px 0 0;
+        }
+      }
+    }
   }
 }
 
@@ -43,32 +110,12 @@ button {
   font-weight: 600;
   text-align: center;
   color: #21272e;
-  font-family: manrope;
 }
 
 .nav_wrapper {
   display: flex;
   flex-direction: row;
   align-items: center;
-
-  .social_logo {
-    display: flex;
-    flex-direction: row;
-
-    img {
-      width: 20px;
-      height: 20px;
-      margin: 0 10px 0 0;
-    }
-  }
-
-  .line {
-    width: 1px;
-    height: 24px;
-    opacity: 0.2;
-    background-color: #ffffff;
-    margin-right: 24px;
-  }
 
   img {
     width: 120px;
@@ -77,7 +124,6 @@ button {
     margin-right: 14px;
   }
 }
-
 
 .store_wrapper {
   width: 129px;
@@ -94,10 +140,16 @@ button {
 
 p {
   position: absolute;
-  font-family: Manrope;
   font-size: 11px;
   font-weight: 500;
   text-align: center;
   color: rgba(255, 255, 255, 0.25);
-  margin-top: 100px;
+}
+
+.line {
+  width: 1px;
+  height: 24px;
+  opacity: 0.2;
+  background-color: #ffffff;
+  margin-right: 24px;
 }

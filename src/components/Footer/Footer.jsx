@@ -16,19 +16,21 @@ const Footer = () => {
                     <div className={classes.line}>
                     </div>
                     <FooterNavBar/>
+                </div>
+                <div className={classes.images_wrapper}>
                     <div className={classes.line}>
                     </div>
                     <div className={classes.social_logo}>
                         <img src={logoInst} alt="Logo" title="Logo"/>
                         <img src={logoLink} alt="Logo" title="Logo"/>
                     </div>
-                </div>
-                <div className={classes.store_images}>
-                    <div className={classes.store_wrapper}>
-                        <img src={appleStoreImg} alt="Logo" title="Logo"/>
-                    </div>
-                    <div className={classes.store_wrapper}>
-                        <img src={googleStoreImg} alt="Logo" title="Logo"/>
+                    <div className={classes.store_images}>
+                        <div className={classes.store_wrapper}>
+                            <img src={appleStoreImg} alt="Logo" title="Logo"/>
+                        </div>
+                        <div className={classes.store_wrapper}>
+                            <img src={googleStoreImg} alt="Logo" title="Logo"/>
+                        </div>
                     </div>
                 </div>
                 <p>© Tinvio™ 2019. All Rights Reserved</p>

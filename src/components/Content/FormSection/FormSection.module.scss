@@ -1,147 +1,273 @@
 %textHandsOfStyle {
+  font-size: 23px;
   opacity: 0.9;
   font-family: 'Patrick Hand', cursive;
   color: #21272e;
 }
 
+@media (min-width: 361px) {
+  .section {
+    width: 768px;
+    height: 1090px;
+
+    .violet_circle {
+      width: 426px;
+      height: 426px;
+      margin-left: -135px;
+    }
+
+    .pink_circle {
+      width: 256px;
+      height: 256px;
+      margin-left: 343px;
+      margin-top: 179px;
+    }
+
+    .contact_block {
+      text-align: center;
+      margin: 61px 44px 23px 76px;
+
+      .header_text {
+        padding-top: 40px;
+
+        h1 {
+          margin: 0 auto;
+          font-size: 32px;
+          width: 506px;
+        }
+      }
+
+      .form_block {
+
+        .arrow_wrapper {
+          margin-left: 200px;
+
+          img {
+            margin-top: 58px;
+            margin-left: -400px;
+          }
+
+          p {
+            margin-top: -50px;
+          }
+        }
+      }
+
+    }
+
+    .language_block {
+      margin: 0 0 0 250px;
+
+      .arrow_lang_wrapper {
+        img {
+          margin-left: 115px;
+        }
+
+        p {
+          margin: -45px 0 22px 85px;
+        }
+      }
+    }
+  }
+}
 
 @media (min-width: 769px) {
 
-  %textHandsOfStyle{
-    font-size: 24px;
-  }
-
   .section {
+    width: 1024px;
     height: 890px;
 
-    .right_arrow_block {
-      margin-left: 90px;
+    .violet_circle {
+      margin-left: -114px;
     }
 
-    .contact_form {
-      margin-top: 140px;
-      margin-left: 250px;
+    .pink_circle {
+      margin-left: 373px;
+      margin-top: 204px;
+    }
+
+    .contact_block {
+      text-align: left;
+      display: flex;
+      margin: 162px 44px 110px 76px;
+
+      .header_text {
+        margin-top: 84px;
+        padding-top: 0;
+
+        h1 {
+          margin: 0;
+          font-size: 40px;
+          width: 400px;
+        }
+      }
+
+      .form_block {
+        margin-left: 97px;
+
+        .arrow_wrapper {
+          margin-left: 29px;
+
+          img {
+            margin-top: 0;
+            margin-left: 0;
+          }
+
+          p {
+            margin: -41px 0 139px 42px;
+          }
+        }
+      }
+    }
+
+    .language_block {
+      margin: -440px 0 0 75px;
+
+      .arrow_lang_wrapper {
+        img {
+          margin-left: -15px;
+        }
+
+        p {
+          margin: -45px 0 22px -52px;
+        }
+      }
     }
   }
 }
 
 @media (min-width: 1025px) {
 
-  %textHandsOfStyle{
-    font-size: 20px;
-  }
-
   .section {
-    height: 816px;
+    width: 1280px;
+    height: 679px;
 
-    .right_arrow_block {
-      margin-left: 0;
+    .pink_circle {
+      margin-left: 345px;
+      margin-top: 195px;
     }
 
-    .contact_form {
-      margin-top: 10px;
-      margin-left: 150px;
+
+    .contact_block {
+      margin: 135px 149px 124px 76px;
+
+      .header_text {
+
+        h1 {
+          width: 490px;
+        }
+      }
+
+      .form_block {
+        margin-left: 154px;
+
+        .arrow_wrapper {
+
+          p {
+            margin: -41px 0 35px 42px;
+          }
+        }
+      }
     }
+
+    .language_block {
+      margin: -327px 0px 91px 75px;
+    }
+
   }
 }
 
 .section {
-  width: 1280px;
   background-image: linear-gradient(to top, #fafafc, rgba(255, 255, 255, 0.45));
-  display: flex;
-  flex-direction: row;
-  font-family: Manrope;
 
-  .big_circle {
-    position: absolute;
-    z-index: -1;
-    width: 400px;
-    height: 400px;
-    background: #f1dcff;
-    border-radius: 50%;
-    margin-left: -70px;
-    margin-top: 90px;
+  .contact_block {
+
+    .header_text {
+
+      h3 {
+        font-size: 13px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        color: #f43939;
+        margin: 0;
+      }
+
+      h1 {
+        font-weight: bold;
+        color: #21272e;
+      }
+    }
+
+    .form_block {
+
+      .arrow_wrapper {
+
+        img {
+          width: 120px;
+          height: 70px;
+          object-fit: contain;
+          transform: scale(-1, 1);
+        }
+
+        p {
+          position: static;
+          width: 246px;
+          text-align: left;
+          height: 29px;
+          font-size: 23px;
+          @extend %textHandsOfStyle;
+        }
+      }
+    }
   }
 
-  .left_part {
-    margin-left: 70px;
-    margin-top: 150px;
+  .language_block {
 
-    h3 {
-      font-size: 13px;
-      font-weight: bold;
-      letter-spacing: 1px;
-      color: #f43939;
-    }
-
-    h1 {
-      width: 467px;
-      font-size: 38px;
-      font-weight: bold;
-      color: #21272e;
-    }
-
-    .pink_circle {
-      position: absolute;
-      z-index: -1;
-      width: 280px;
-      height: 280px;
-      background: #FFC2AC;
-      border-radius: 50%;
-      margin-left: 270px;
-      margin-top: -113px;
-    }
-
-    .left_arrow_block {
-      display: flex;
-      flex-direction: row;
+    .arrow_lang_wrapper {
+      img {
+        width: 110px;
+        height: 64px;
+        object-fit: contain;
+      }
 
       p {
-        text-align: left;
         position: static;
-        margin-top: 20px;
+        width: 246px;
+        text-align: left;
+        height: 29px;
+        font-size: 23px;
         @extend %textHandsOfStyle;
       }
-
-      img {
-        margin-left: -90px;
-        width: 120px;
-        height: 50px;
-      }
-    }
-
-    .blue_circle {
-      width: 160px;
-      height: 160px;
-      position: absolute;
-      z-index: -1;
-      background: #87CEEB;
-      border-radius: 50%;
-      margin-top: 20px;
-      margin-left: -40px;
     }
   }
 
-  .right_arrow_block {
-    display: flex;
-    flex-direction: row;
+  .violet_circle {
+    position: absolute;
+    z-index: -1;
+    background: #f1dcff;
+    border-radius: 50%;
+  }
 
-    p {
-      text-align: left;
-      position: static;
-      margin-left: -80px;
-      margin-top: 127px;
-      @extend %textHandsOfStyle;
-    }
+  .pink_circle {
+    position: absolute;
+    z-index: -1;
+    background: #FFC2AC;
+    border-radius: 50%;
+  }
 
-    img {
-      margin-top: 100px;
-      margin-left: 220px;
-      width: 120px;
-      height: 50px;
-    }
+  .blue_circle {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    z-index: -1;
+    background: #87CEEB;
+    border-radius: 50%;
+    margin-top: 445px;
+    margin-left: -23px;
   }
 }
-.contact_form {
 
-}
+
+
+
+

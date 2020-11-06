@@ -23,14 +23,16 @@ const OrdersInfoSection = () => {
                     <img src={italianLogo} alt="Lines" title="Lines"/>
                 </div>
             </div>
-            <div className={classes.text_block}>
-                <h1>All your orders in one place</h1>
-                <p>Say no more to chunky emails and messy WhatsApp messages. Receive
-                    and manage your orders in one
-                    platform
-                </p>
+            <div className={classes.carousel_wrapper}>
+                <div className={classes.text_block}>
+                    <h1>All your orders in one place</h1>
+                    <p>Say no more to chunky emails and messy WhatsApp messages. Receive
+                        and manage your orders in one
+                        platform
+                    </p>
+                </div>
+                <CarouselComponent/>
             </div>
-            <CarouselComponent/>
         </section>
     )
 }

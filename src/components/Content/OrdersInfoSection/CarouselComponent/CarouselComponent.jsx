@@ -48,7 +48,7 @@ const CarouselComponent = (props) => {
                     </div>
                 </div>
             </div>
-            <div className={classes.carousel_img_wrapper}>
+            <div className={classes.carousel_img_bg}>
                 <img src={imagesUrl[currentImageIndex]} alt='some'/>
             </div>
         </div>

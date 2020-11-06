@@ -1,11 +1,101 @@
+@media (min-width: 361px) {
+  .section {
+    width: 768px;
+
+    .steps_wrapper {
+      flex-direction: column;
+    }
+
+    .line {
+      width: 2px;
+      height: 56px;
+      margin: 24px auto;
+    }
+
+    h1 {
+      margin: 6px 0 79px;
+    }
+
+    h3 {
+      margin: 16px auto 8px;
+    }
+  }
+}
+
+@media (min-width: 769px) {
+  .section {
+    width: 1024px;
+
+    .steps_wrapper {
+      flex-direction: row;
+      width: 920px;
+    }
+
+    h1 {
+      margin: 6px 0 87px;
+    }
+
+    h3 {
+      margin: 32px auto 8px;
+    }
+
+    .line {
+      width: 272px;
+      height: 2px;
+      margin: 28px -70px;
+    }
+  }
+}
+
+@media (min-width: 1025px) {
+  .section {
+    width: 1280px;
+
+    .steps_wrapper {
+      width: 1100px;
+    }
+
+    .line {
+      margin: 28px -41px;
+    }
+  }
+}
+
 .section {
   background-color: #fcfdff;
-  font-family: Manrope;
   padding-bottom: 90px;
-  width: 1280px;
+
+  .steps_wrapper {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+
+    .block {
+      img {
+        width: 57px;
+        height: 56px;
+        object-fit: contain;
+      }
+
+      .first_text {
+        margin: 0 auto;
+          width: 290px;
+      }
+
+      .second_text {
+          width: 200px;
+        margin: 0 auto;
+      }
+
+      .third_text {
+        margin: 0 auto;
+          width: 151px;
+      }
+    }
+  }
 
   h2 {
-    padding-top: 100px;
+    padding-top: 88px;
     text-align: center;
     font-size: 13px;
     font-weight: bold;
@@ -21,51 +111,25 @@
   }
 
   .line {
-    width: 272px;
-    height: 2px;
     opacity: 0.1;
     background-color: #21272e;
   }
 
-  .images_wrapper{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 70px;
-
-    img {
-      width: 70px;
-      margin: 0 35px;
-    }
+  h3 {
+    width: 237px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #21272e;
   }
 
-  .text_wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-
-    .step_info {
-      margin: 0 95px;
-      text-align: center;
-
-      h3 {
-        font-size: 18px;
-        font-weight: bold;
-        text-align: center;
-        color: #21272e;
-      }
-      p {
-        position: static;
-        margin-top: 0;
-        font-size: 14px;
-        font-weight: 600;
-        text-align: center;
-        color: #787c80;
-        width: 220px;
-      }
-    }
+  p {
+    position: static;
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    color: #787c80;
+    width: 220px;
   }
 }

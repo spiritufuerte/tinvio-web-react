@@ -1,41 +1,42 @@
-@media (min-width: 769px) {
+@media (min-width: 361px) {
   .section {
-    width: 1280px;
-    height: 700px;
-
-    .title {
-      width: 1280px;
-    }
-
-    h1 {
-      font-size: 16px;
-    }
+    width: 768px;
+    height: 620px;
 
     h2 {
-      width: 965px;
-      font-size: 52px;
-    }
-
-    button {
-      width: 265px;
-      height: 69px;
-      font-size: 17px;
-    }
-
-    p {
-      font-size: 15px;
+      width: 718px;
     }
   }
 
   .boxes_image_wrapper {
-    width: 200px;
-    height: 610px;
+    width: 145px;
+  }
+
+  .fruits_image_wrapper {
+    width: 162px;
+    margin-left: 606px;
+  }
+}
+
+
+@media (min-width: 769px) {
+  .section {
+    width: 1024px;
+    height: 620px;
+
+
+    h2 {
+      width: 812px;
+    }
+  }
+
+  .boxes_image_wrapper {
+    width: 175px;
   }
 
   .fruits_image_wrapper {
     width: 194px;
-    height: 610px;
-    margin-left: 1086px;
+    margin-left: 830px;
   }
 }
 
@@ -45,48 +46,27 @@
     width: 1280px;
     height: 620px;
 
-    .title {
-      width: 1280px;
-    }
-
-    h1 {
-      font-size: 13px;
-    }
-
     h2 {
       width: 812px;
-      font-size: 40px;
-    }
-
-    button {
-      width: 214px;
-      height: 52px;
-      font-size: 14px;
-    }
-
-    p {
-      font-size: 12px;
     }
   }
 
   .boxes_image_wrapper {
     width: 273px;
-    height: 536px;
   }
 
   .fruits_image_wrapper {
     width: 273px;
     margin-left: 1007px;
-    height: 536px;
   }
 }
 
 .section {
-  font-family: manrope;
   background-color: #fcfdff;
   text-align: center;
 
   h1 {
+    font-size: 13px;
     text-align: center;
     color: #f43939;
     letter-spacing: 1px;
@@ -96,6 +76,7 @@
   }
 
   h2 {
+    font-size: 40px;
     font-weight: bold;
     text-align: center;
     color: #21272e;
@@ -112,6 +93,9 @@
     line-height: 1.33;
     font-weight: 400;
     margin-top: 40px;
+    width: 214px;
+    height: 52px;
+    font-size: 14px;
   }
 
   .fruits_image_wrapper {
@@ -119,10 +103,12 @@
     background-image: url('../../../assets/image/Fruits.png');
     background-position: left;
     background-size: cover;
-    margin-top: 44px;
+    margin-top: 30px;
+    height: 536px;
   }
 
   p {
+    font-size: 12px;
     position: static;
     color: #909599;
     text-align: center;
@@ -133,9 +119,10 @@
 }
 
 .boxes_image_wrapper {
+  height: 536px;
   position: absolute;
   background-image: url('../../../assets/image/Boxes.png');
   background-size: cover;
   background-position: right;
-  margin-top: 44px;
+  margin-top: 30px;
 }
