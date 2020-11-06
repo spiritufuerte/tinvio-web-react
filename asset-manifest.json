@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/tinvio-web-react/static/css/main.8a7aa7c0.chunk.css",
-    "main.js": "/tinvio-web-react/static/js/main.215b1f54.chunk.js",
-    "main.js.map": "/tinvio-web-react/static/js/main.215b1f54.chunk.js.map",
+    "main.css": "/tinvio-web-react/static/css/main.c4b22476.chunk.css",
+    "main.js": "/tinvio-web-react/static/js/main.5ea01fa3.chunk.js",
+    "main.js.map": "/tinvio-web-react/static/js/main.5ea01fa3.chunk.js.map",
     "runtime-main.js": "/tinvio-web-react/static/js/runtime-main.23fc0793.js",
     "runtime-main.js.map": "/tinvio-web-react/static/js/runtime-main.23fc0793.js.map",
     "static/css/2.cf87ab87.chunk.css": "/tinvio-web-react/static/css/2.cf87ab87.chunk.css",
-    "static/js/2.934bf4ed.chunk.js": "/tinvio-web-react/static/js/2.934bf4ed.chunk.js",
-    "static/js/2.934bf4ed.chunk.js.map": "/tinvio-web-react/static/js/2.934bf4ed.chunk.js.map",
+    "static/js/2.87763e2e.chunk.js": "/tinvio-web-react/static/js/2.87763e2e.chunk.js",
+    "static/js/2.87763e2e.chunk.js.map": "/tinvio-web-react/static/js/2.87763e2e.chunk.js.map",
     "static/js/3.895ab1c9.chunk.js": "/tinvio-web-react/static/js/3.895ab1c9.chunk.js",
     "static/js/3.895ab1c9.chunk.js.map": "/tinvio-web-react/static/js/3.895ab1c9.chunk.js.map",
     "index.html": "/tinvio-web-react/index.html",
     "static/css/2.cf87ab87.chunk.css.map": "/tinvio-web-react/static/css/2.cf87ab87.chunk.css.map",
-    "static/css/main.8a7aa7c0.chunk.css.map": "/tinvio-web-react/static/css/main.8a7aa7c0.chunk.css.map",
-    "static/js/2.934bf4ed.chunk.js.LICENSE.txt": "/tinvio-web-react/static/js/2.934bf4ed.chunk.js.LICENSE.txt",
+    "static/css/main.c4b22476.chunk.css.map": "/tinvio-web-react/static/css/main.c4b22476.chunk.css.map",
+    "static/js/2.87763e2e.chunk.js.LICENSE.txt": "/tinvio-web-react/static/js/2.87763e2e.chunk.js.LICENSE.txt",
     "static/media/Analytics.5fa4e654.png": "/tinvio-web-react/static/media/Analytics.5fa4e654.png",
     "static/media/Before.1db929ba.png": "/tinvio-web-react/static/media/Before.1db929ba.png",
     "static/media/MainSection.module.scss": "/tinvio-web-react/static/media/Fruits.4d0ab420.png",
@@ -46,8 +46,8 @@
   "entrypoints": [
     "static/js/runtime-main.23fc0793.js",
     "static/css/2.cf87ab87.chunk.css",
-    "static/js/2.934bf4ed.chunk.js",
-    "static/css/main.8a7aa7c0.chunk.css",
-    "static/js/main.215b1f54.chunk.js"
+    "static/js/2.87763e2e.chunk.js",
+    "static/css/main.c4b22476.chunk.css",
+    "static/js/main.5ea01fa3.chunk.js"
   ]
 }
