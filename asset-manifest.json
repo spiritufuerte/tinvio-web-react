@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tinvio-web-react/static/css/main.b051552e.chunk.css",
+    "main.css": "/tinvio-web-react/static/css/main.c3035428.chunk.css",
     "main.js": "/tinvio-web-react/static/js/main.561a10ac.chunk.js",
     "main.js.map": "/tinvio-web-react/static/js/main.561a10ac.chunk.js.map",
     "runtime-main.js": "/tinvio-web-react/static/js/runtime-main.23fc0793.js",
@@ -12,7 +12,7 @@
     "static/js/3.895ab1c9.chunk.js.map": "/tinvio-web-react/static/js/3.895ab1c9.chunk.js.map",
     "index.html": "/tinvio-web-react/index.html",
     "static/css/2.cf87ab87.chunk.css.map": "/tinvio-web-react/static/css/2.cf87ab87.chunk.css.map",
-    "static/css/main.b051552e.chunk.css.map": "/tinvio-web-react/static/css/main.b051552e.chunk.css.map",
+    "static/css/main.c3035428.chunk.css.map": "/tinvio-web-react/static/css/main.c3035428.chunk.css.map",
     "static/js/2.934bf4ed.chunk.js.LICENSE.txt": "/tinvio-web-react/static/js/2.934bf4ed.chunk.js.LICENSE.txt",
     "static/media/Analytics.5fa4e654.png": "/tinvio-web-react/static/media/Analytics.5fa4e654.png",
     "static/media/Before.1db929ba.png": "/tinvio-web-react/static/media/Before.1db929ba.png",
@@ -47,7 +47,7 @@
     "static/js/runtime-main.23fc0793.js",
     "static/css/2.cf87ab87.chunk.css",
     "static/js/2.934bf4ed.chunk.js",
-    "static/css/main.b051552e.chunk.css",
+    "static/css/main.c3035428.chunk.css",
     "static/js/main.561a10ac.chunk.js"
   ]
 }
