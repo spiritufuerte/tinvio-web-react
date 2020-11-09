@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/tinvio-web-react/static/css/main.c4b22476.chunk.css",
-    "main.js": "/tinvio-web-react/static/js/main.5ea01fa3.chunk.js",
-    "main.js.map": "/tinvio-web-react/static/js/main.5ea01fa3.chunk.js.map",
+    "main.css": "/tinvio-web-react/static/css/main.b051552e.chunk.css",
+    "main.js": "/tinvio-web-react/static/js/main.561a10ac.chunk.js",
+    "main.js.map": "/tinvio-web-react/static/js/main.561a10ac.chunk.js.map",
     "runtime-main.js": "/tinvio-web-react/static/js/runtime-main.23fc0793.js",
     "runtime-main.js.map": "/tinvio-web-react/static/js/runtime-main.23fc0793.js.map",
     "static/css/2.cf87ab87.chunk.css": "/tinvio-web-react/static/css/2.cf87ab87.chunk.css",
-    "static/js/2.87763e2e.chunk.js": "/tinvio-web-react/static/js/2.87763e2e.chunk.js",
-    "static/js/2.87763e2e.chunk.js.map": "/tinvio-web-react/static/js/2.87763e2e.chunk.js.map",
+    "static/js/2.934bf4ed.chunk.js": "/tinvio-web-react/static/js/2.934bf4ed.chunk.js",
+    "static/js/2.934bf4ed.chunk.js.map": "/tinvio-web-react/static/js/2.934bf4ed.chunk.js.map",
     "static/js/3.895ab1c9.chunk.js": "/tinvio-web-react/static/js/3.895ab1c9.chunk.js",
     "static/js/3.895ab1c9.chunk.js.map": "/tinvio-web-react/static/js/3.895ab1c9.chunk.js.map",
     "index.html": "/tinvio-web-react/index.html",
     "static/css/2.cf87ab87.chunk.css.map": "/tinvio-web-react/static/css/2.cf87ab87.chunk.css.map",
-    "static/css/main.c4b22476.chunk.css.map": "/tinvio-web-react/static/css/main.c4b22476.chunk.css.map",
-    "static/js/2.87763e2e.chunk.js.LICENSE.txt": "/tinvio-web-react/static/js/2.87763e2e.chunk.js.LICENSE.txt",
+    "static/css/main.b051552e.chunk.css.map": "/tinvio-web-react/static/css/main.b051552e.chunk.css.map",
+    "static/js/2.934bf4ed.chunk.js.LICENSE.txt": "/tinvio-web-react/static/js/2.934bf4ed.chunk.js.LICENSE.txt",
     "static/media/Analytics.5fa4e654.png": "/tinvio-web-react/static/media/Analytics.5fa4e654.png",
     "static/media/Before.1db929ba.png": "/tinvio-web-react/static/media/Before.1db929ba.png",
     "static/media/MainSection.module.scss": "/tinvio-web-react/static/media/Fruits.4d0ab420.png",
@@ -26,6 +26,7 @@
     "static/media/arrow-right.a715da19.png": "/tinvio-web-react/static/media/arrow-right.a715da19.png",
     "static/media/OrdersInfoSection.module.scss": "/tinvio-web-react/static/media/desktop@3x.8ba4e660.png",
     "static/media/google-play-badge.6a920ae8.svg": "/tinvio-web-react/static/media/google-play-badge.6a920ae8.svg",
+    "static/media/ico-24-menu.ca3a8b52.svg": "/tinvio-web-react/static/media/ico-24-menu.ca3a8b52.svg",
     "static/media/icon-24-check.5bec4626.svg": "/tinvio-web-react/static/media/icon-24-check.5bec4626.svg",
     "static/media/icon-24-chevron.0ecb8b04.svg": "/tinvio-web-react/static/media/icon-24-chevron.0ecb8b04.svg",
     "static/media/icon-24-chevron1.53df69e2.svg": "/tinvio-web-react/static/media/icon-24-chevron1.53df69e2.svg",
@@ -37,8 +38,7 @@
     "static/media/image-logo-bottom-italian-club@3x.b62a3427.png": "/tinvio-web-react/static/media/image-logo-bottom-italian-club@3x.b62a3427.png",
     "static/media/image-logo-bottom-joliebean@3x.f99f4fa7.png": "/tinvio-web-react/static/media/image-logo-bottom-joliebean@3x.f99f4fa7.png",
     "static/media/image-logo-bottom-simply-wraps@3x.e0ba3178.png": "/tinvio-web-react/static/media/image-logo-bottom-simply-wraps@3x.e0ba3178.png",
-    "static/media/lines-copy-3.84142dbb.svg": "/tinvio-web-react/static/media/lines-copy-3.84142dbb.svg",
-    "static/media/lines.239b3621.svg": "/tinvio-web-react/static/media/lines.239b3621.svg",
+    "static/media/App.module.scss": "/tinvio-web-react/static/media/lines.239b3621.svg",
     "static/media/logo-color.7532a140.svg": "/tinvio-web-react/static/media/logo-color.7532a140.svg",
     "static/media/logo-white.a83dd754.svg": "/tinvio-web-react/static/media/logo-white.a83dd754.svg",
     "static/media/manrope.css": "/tinvio-web-react/static/media/manrope-thin.64041bf7.otf"
@@ -46,8 +46,8 @@
   "entrypoints": [
     "static/js/runtime-main.23fc0793.js",
     "static/css/2.cf87ab87.chunk.css",
-    "static/js/2.87763e2e.chunk.js",
-    "static/css/main.c4b22476.chunk.css",
-    "static/js/main.5ea01fa3.chunk.js"
+    "static/js/2.934bf4ed.chunk.js",
+    "static/css/main.b051552e.chunk.css",
+    "static/js/main.561a10ac.chunk.js"
   ]
 }
