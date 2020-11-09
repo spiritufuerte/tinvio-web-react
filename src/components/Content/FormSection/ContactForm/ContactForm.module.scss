@@ -12,9 +12,110 @@
   padding-left: 20px;
 }
 
+@media (max-width: 360px) {
+  .form {
+    margin: 0 auto;
+    width: 312px;
+    height: 489px;
+    border-radius: 13px;
+
+    .input_wrapper {
+      margin: 0 27px;
+      padding-top: 15px;
+      text-align: center;
+
+      h1 {
+        text-align: center;
+      }
+
+      .input_text {
+        width: 252px;
+        height: 88px;
+
+        input {
+          width: 252px;
+          height: 56px;
+        }
+      }
+
+      .input_tel {
+        display: flex;
+        flex-direction: row;
+        height: 89px;
+
+        .first_numbers {
+          width: 80px;
+        }
+
+        .last_numbers {
+          width: 156px;
+        }
+      }
+
+      .buttons_wrapper {
+        flex-direction: column;
+
+        button {
+          display: block;
+          width: 252px;
+        }
+
+        p {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}
+
 @media (min-width: 361px) {
   .form {
     margin: 0 auto;
+    width: 407px;
+    height: 461px;
+
+    .input_wrapper {
+      margin: 0 32px;
+
+      h1 {
+        text-align: left;
+      }
+
+      .input_text {
+        width: 343px;
+        height: 89px;
+
+        input {
+          width: 343px;
+          height: 56px;
+        }
+      }
+
+      .input_tel {
+        height: 89px;
+
+        .first_numbers {
+          width: 96px;
+        }
+
+        .last_numbers {
+          width: 231px;
+        }
+      }
+
+      .buttons_wrapper {
+        flex-direction: row;
+
+        button {
+          width: 172px;
+        }
+
+        p {
+          margin-left: 25px;
+        }
+      }
+
+    }
   }
 }
 
@@ -29,20 +130,15 @@
 }
 
 .form {
-  width: 407px;
-  height: 461px;
-  border-radius: 13px;
   box-shadow: 0 6px 14px -6px rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
 
 
   .input_wrapper {
-    margin: 0 32px;
     padding-top: 15px;
     text-align: center;
 
     h1 {
-      text-align: left;
       font-size: 18px;
       font-weight: bold;
       color: #21272e;
@@ -52,10 +148,8 @@
     .input_tel {
       display: flex;
       flex-direction: row;
-      height: 89px;
 
       .first_numbers {
-        width: 96px;
         height: 56px;
         @extend %input_style;
       }
@@ -65,9 +159,8 @@
       }
 
       .last_numbers {
-        @extend %input_style;
-        width: 231px;
         height: 56px;
+        @extend %input_style;
         margin-left: 10px;
         background-image: url('../../../../assets/image/icon-24-phone.svg');
         background-repeat: no-repeat;
@@ -79,11 +172,9 @@
     .buttons_wrapper {
       margin-top: 15px;
       display: flex;
-      flex-direction: row;
       align-items: center;
 
       button {
-        width: 172px;
         height: 52px;
         border-radius: 8px;
         color: #ffffff;
@@ -97,7 +188,6 @@
       p {
         margin-top: 15px;
         position: static;
-        margin-left: 25px;
         font-size: 12px;
         font-weight: 500;
         color: #909599;
@@ -106,12 +196,8 @@
   }
 
   .input_text {
-    width: 343px;
-    height: 89px;
 
     input {
-      width: 343px;
-      height: 56px;
       @extend %input_style;
     }
 

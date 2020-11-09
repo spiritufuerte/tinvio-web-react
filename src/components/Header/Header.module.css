@@ -1,6 +1,50 @@
+@media (max-width: 360px) {
+    .wrapper {
+        width: 360px;
+    }
+
+    .header_block {
+        margin-left: 11px;
+        margin-right: 24px;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .navbar_wrapper {
+        display: none;
+    }
+
+    button {
+        display: none;
+    }
+}
+
 @media (min-width: 361px) {
     .wrapper {
         width: 768px;
+    }
+
+    .header_block {
+        margin-left: 64px;
+        margin-right: 76px;
+    }
+
+    .line {
+        display: block;
+    }
+
+    .navbar_wrapper {
+        display: block;
+    }
+
+    .navbar_icon {
+        display: none;
+    }
+
+    button {
+        display: inline;
     }
 }
 
@@ -27,8 +71,6 @@
     height: 80px;
     display: flex;
     flex-direction: row;
-    margin-left: 64px;
-    margin-right: 76px;
     justify-content: space-between;
     align-items: center;
 }

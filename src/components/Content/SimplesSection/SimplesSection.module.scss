@@ -1,3 +1,33 @@
+@media (max-width: 360px) {
+  .section {
+    width: 360px;
+
+    .steps_wrapper {
+      flex-direction: column;
+    }
+
+    .line {
+      width: 2px;
+      height: 56px;
+      margin: 24px auto;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin: 6px auto 79px;
+      width: 300px;
+    }
+
+    h2 {
+      padding-top: 73px;
+    }
+
+    h3 {
+      margin: 16px auto 8px;
+    }
+  }
+}
+
 @media (min-width: 361px) {
   .section {
     width: 768px;
@@ -12,7 +42,12 @@
       margin: 24px auto;
     }
 
+    h2 {
+      padding-top: 88px;
+    }
+
     h1 {
+      font-size: 32px;
       margin: 6px 0 79px;
     }
 
@@ -95,7 +130,6 @@
   }
 
   h2 {
-    padding-top: 88px;
     text-align: center;
     font-size: 13px;
     font-weight: bold;
@@ -104,7 +138,6 @@
   }
 
   h1 {
-    font-size: 32px;
     font-weight: bold;
     text-align: center;
     color: #21272e;

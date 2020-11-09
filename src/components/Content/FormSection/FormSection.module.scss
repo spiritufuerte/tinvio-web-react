@@ -5,6 +5,60 @@
   color: #21272e;
 }
 
+@media (max-width: 360px) {
+  .section {
+    width: 360px;
+    height: 1156px;
+
+    .contact_block {
+      text-align: center;
+      margin: 0 auto 30px;
+
+      .header_text {
+        padding-top: 40px;
+
+        h1 {
+          margin: 0 auto;
+          font-size: 28px;
+          width: 330px;
+        }
+      }
+
+      .form_block {
+
+        .arrow_wrapper {
+          margin-left: 0;
+
+          img {
+            margin-top: 36px;
+            margin-left: -95px;
+          }
+
+          p {
+            margin-left: 112px;
+            margin-top: -50px;
+          }
+        }
+      }
+
+    }
+
+    .language_block {
+      margin: 0 auto;
+
+      .arrow_lang_wrapper {
+        img {
+          margin-left: 75px;
+        }
+
+        p {
+          margin: -45px 0 22px 35px;
+        }
+      }
+    }
+  }
+}
+
 @media (min-width: 361px) {
   .section {
     width: 768px;
@@ -14,6 +68,13 @@
       width: 426px;
       height: 426px;
       margin-left: -135px;
+    }
+
+    .blue_circle {
+      width: 160px;
+      height: 160px;
+      margin-top: 445px;
+      margin-left: -23px;
     }
 
     .pink_circle {
@@ -256,14 +317,10 @@
   }
 
   .blue_circle {
-    width: 160px;
-    height: 160px;
     position: absolute;
     z-index: -1;
     background: #87CEEB;
     border-radius: 50%;
-    margin-top: 445px;
-    margin-left: -23px;
   }
 }
 

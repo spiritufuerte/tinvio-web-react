@@ -1,3 +1,48 @@
+@media (max-width: 360px) {
+  .section {
+    margin-top: 35px;
+    width: 360px;
+
+    .text_block {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+      h1 {
+        font-size: 28px;
+      }
+    }
+
+    .cards_wrapper {
+      margin: 50px auto;
+      flex-direction: column;
+      align-items: center;
+
+      .card {
+        width: 265px;
+        height: 464px;
+        border-radius: 46.8px;
+        margin-bottom: 48px;
+
+        img {
+          margin-top: 35px;
+          margin-left: -28px;
+          width: 246px;
+        }
+
+        .card_text_wrapper {
+          flex-direction: column;
+          margin-top: -45px;
+
+          p {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+
 @media (min-width: 361px) {
   .section {
     margin-top: 96px;
@@ -9,6 +54,7 @@
       text-align: center;
 
       h1 {
+        font-size: 32px;
         width: 558px;
       }
 
@@ -135,8 +181,7 @@
 
     h1 {
       color: #21272e;
-      font-weight: bold;
-      font-size: 32px;
+      font-weight: bold;;
       margin: 0;
     }
 

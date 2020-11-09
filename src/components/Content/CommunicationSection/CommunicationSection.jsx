@@ -13,7 +13,7 @@ const CommunicationSection = () => {
                         <button id={classes.after}>AFTER</button>
                     </div>
                 </div>
-                <img src={beforeImage} title='before image' alt='some'/>
+               <img src={beforeImage} title='before image' alt='some'/>
             </div>
             <div className={classes.second_block}>
                 <div className={classes.line}></div>

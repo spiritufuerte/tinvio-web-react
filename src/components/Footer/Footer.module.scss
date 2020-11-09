@@ -1,3 +1,45 @@
+@media (max-width: 360px) {
+  .wrapper {
+    width: 360px;
+    height: 547px;
+
+    .footer {
+      .nav_wrapper {
+        display: flex;
+        flex-direction: column;
+
+        img {
+          margin: 48px 20px 35px 0;
+        }
+
+        .line {
+          display: none;
+        }
+      }
+
+      .images_wrapper {
+        flex-direction: column;
+        margin: 30px auto 0;
+
+        .line {
+        display: none;
+        }
+
+        .store_images {
+          margin-top: 20px;
+          margin-left: 0;
+        }
+      }
+
+      p {
+        position: static;
+        margin-top: 15px;
+      }
+    }
+  }
+}
+
+
 @media (min-width: 361px) {
   .wrapper {
     width: 768px;

@@ -1,3 +1,26 @@
+@media (max-width: 360px) {
+  .carousel {
+    width: 360px;
+    flex-direction: column-reverse;
+
+    .circles_wrapper {
+      margin: 40px 0 0 0;
+      justify-content: center;
+    }
+    .carousel_img_bg {
+      margin-left: 0;
+      width: 360px;
+      height: 394px;
+      border-radius: 53px 0 0 53px;
+    }
+
+    .carousel_img_bg img {
+      width: 590px;
+      height: 306px;
+    }
+  }
+}
+
 @media (min-width: 361px) {
   .carousel {
     width: 768px;
@@ -13,6 +36,11 @@
       width: 700px;
       height: 592px;
       border-radius: 53px 0 0 53px;
+    }
+
+    .carousel_img_bg img {
+      width: 1000px;
+      height: 519px;
     }
   }
 }
@@ -57,7 +85,6 @@
 
 .carousel {
   display: flex;
-
 }
 
 .circles {
@@ -114,7 +141,3 @@
 }
 
 
-.carousel_img_bg img {
-  width: 1000px;
-  height: 519px;
-}

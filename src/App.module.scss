@@ -3,45 +3,56 @@
 }
 
 @media (min-width: 361px) {
+  .lines_wrapper {
+    margin: 0 0 0 588px;
+    width: 178px;
+    height: 787px;
+  }
 
+  .lines_reverse_wrapper {
+    width: 535px;
+  }
 }
 
 @media (min-width: 769px) {
 
   .lines_wrapper {
-    overflow:hidden;
+    margin: 0 0 0 590px;
+    width: 434px;
+    height: 787px;
   }
 
-  .lines_wrapper img {
-    margin: 0 -318px 0 0;
-    width: 1000px;
-    height: 936px;
-    object-fit: contain;
+  .lines_reverse_wrapper {
+    width: 791px;
   }
 }
 
 @media (min-width: 1025px) {
-  .lines_wrapper img {
-    margin: 0;
-    width: 598px;
-    height: 787px;
-    object-fit: contain;
+  .lines_wrapper {
+    margin: 0 0 0  590px;
+    width: 604px;
+    height: 785px;
+  }
+
+  .lines_reverse_wrapper {
+    width: 958px;
   }
 }
 
 .lines_reverse_wrapper{
+  background-image: url("./assets/image/lines.svg");
   z-index: -1;
   position: absolute;
-  width: 958px;
   height: 1516px;
-  margin-top: 804px;
-  margin-left: 230px;
+  margin-top: 782px;
+  margin-left: 233px;
+  background-size: cover;
 }
 
 .lines_wrapper {
+  background-image: url("../src/assets/image/lines-copy-3.svg");
   position: absolute;
-  margin-top: 7px;
-  margin-left: 598px;
+  background-size: cover;
 }
 
 
