@@ -5,30 +5,41 @@ import ordersImage from '../../../../assets/image/Carousel/Orders.png';
 import analyticsImage from '../../../../assets/image/Carousel/Analytics.png';
 import arrowLeft from "../../../../assets/image/icon-24-chevron1.svg";
 import arrowRight from "../../../../assets/image/icon-24-chevron.svg";
-
+import cn from 'classnames';
 
 const CarouselComponent = (props) => {
 
     const imagesUrl = [ordersImage, operationalCostsImage, analyticsImage]
 
     const [currentImageIndex, setImageIndex] = useState(0);
+    const [isHidden, setIsHidden] = useState(false);
 
     const nextSlideHandler = () => {
-        if(currentImageIndex < imagesUrl.length - 1){
-            setImageIndex(currentImageIndex  + 1 );
-        }
-        else {
-            setImageIndex(0);
-        }
+        setIsHidden(true);
+        setTimeout(() => {
+            if (currentImageIndex < imagesUrl.length - 1) {
+                setImageIndex(currentImageIndex + 1);
+            } else {
+                setImageIndex(0);
+            }
+        }, 400);
+        setTimeout(() => {
+            setIsHidden(false);
+        }, 400)
     }
 
     const prevSlideHandler = () => {
-        if(currentImageIndex > 0) {
-            setImageIndex(currentImageIndex - 1);
-        }
-        else {
-            setImageIndex(imagesUrl.length - 1);
-        }
+        setIsHidden(true);
+        setTimeout(() => {
+            if (currentImageIndex > 0) {
+                setImageIndex(currentImageIndex - 1);
+            } else {
+                setImageIndex(imagesUrl.length - 1);
+            }
+        }, 400);
+        setTimeout(() => {
+            setIsHidden(false);
+        }, 400)
     }
 
     return (
@@ -39,17 +50,20 @@ const CarouselComponent = (props) => {
                         <img src={arrowLeft} alt="arrowLeft" title="arrowLeft"/>
                     </div>
                     <div className={classes.indicator_wrapper}>
-                        <div className={classes.indicator}></div>
-                        <div className={classes.indicator}></div>
-                        <div className={classes.indicator}></div>
+                        <div
+                            className={cn(classes.indicator, {[classes.indicator_active]: currentImageIndex === 0})}></div>
+                        <div className={cn(classes.indicator, {[classes.indicator_active]: currentImageIndex === 1})}></div>
+                        <div className={cn(classes.indicator, {[classes.indicator_active]: currentImageIndex === 2})}></div>
                     </div>
-                    <div onClick={nextSlideHandler} className={classes.circle} >
+                    <div onClick={nextSlideHandler} className={classes.circle}>
                         <img src={arrowRight} alt="arrowRight" title="arrowRight"/>
                     </div>
                 </div>
             </div>
             <div className={classes.carousel_img_bg}>
-                <img src={imagesUrl[currentImageIndex]} alt='some'/>
+                <div className={cn(classes.image_wrapper, {[classes.image_wrapper_hidden]: isHidden})}>
+                    <img src={imagesUrl[currentImageIndex]} alt='some'/>
+                </div>
             </div>
         </div>
     )

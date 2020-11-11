@@ -1,143 +1,130 @@
-@media (max-width: 360px) {
-  .carousel {
-    width: 360px;
-    flex-direction: column-reverse;
-
-    .circles_wrapper {
-      margin: 40px 0 0 0;
-      justify-content: center;
-    }
-    .carousel_img_bg {
-      margin-left: 0;
-      width: 360px;
-      height: 394px;
-      border-radius: 53px 0 0 53px;
-    }
-
-    .carousel_img_bg img {
-      width: 590px;
-      height: 306px;
-    }
-  }
-}
-
-@media (min-width: 361px) {
-  .carousel {
-    width: 768px;
-    flex-direction: column-reverse;
-
-    .circles_wrapper {
-      margin: 67px 40px 0 0;
-      justify-content: flex-end;
-    }
-
-    .carousel_img_bg {
-      margin-left: 68px;
-      width: 700px;
-      height: 592px;
-      border-radius: 53px 0 0 53px;
-    }
-
-    .carousel_img_bg img {
-      width: 1000px;
-      height: 519px;
-    }
-  }
-}
-
-@media (min-width: 769px) {
-
-  .carousel {
-    width: 1024px;
-    flex-direction: row;
-
-    .circles_wrapper {
-      margin-top: 430px;
-      margin-left: -380px;
-      justify-content: normal;
-    }
-
-    .carousel_img_bg {
-      width: 477px;
-      margin-left: 89px;
-    }
-  }
-}
-
-@media (min-width: 1025px) {
-
-  .carousel {
-    width: 1280px;
-    flex-direction: row;
-
-    .circles_wrapper {
-      margin-top: 430px;
-      margin-left: -380px;
-      justify-content: normal;
-    }
-
-    .carousel_img_bg {
-      width: 747px;
-      margin-left: 75px;
-    }
-  }
-}
-
 .carousel {
   display: flex;
-}
-
-.circles {
-
+  flex-direction: column-reverse;
 }
 
 .circles_wrapper {
+  margin-top: 40px;
+  justify-content: center;
   display: flex;
   flex-direction: row;
   align-items: center;
+}
 
+.indicator_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 25px;
+}
 
-  .indicator_wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 0 25px;
+.indicator {
+  width: 6px;
+  height: 6px;
+  background-color: rgba(33, 39, 46, 0.15);
+  border-radius: 50%;
+  margin: 0 5px;
+  transition: background-color 0.7s;
+}
 
-    .indicator {
-      width: 6px;
-      height: 6px;
-      background-color: rgba(33, 39, 46, 0.15);
-      border-radius: 50%;
-      margin: 0 5px;
-    }
-  }
+.indicator_active {
+  background-color: #21272e;
+}
 
-  .circle {
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-    border: solid 1px #dae1e8;
-    background-color: #f0f1f2;
-    text-align: center;
+.circle {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: solid 1px #dae1e8;
+  background-color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+}
 
-    img {
-      margin-top: 12px;
-    }
-  }
+.circle:hover {
+  background-color: #f0f1f2;
+}
+
+.circle img {
+  margin-top: 12px;
 }
 
 .carousel_img_bg {
-  overflow: hidden;
-  height: 592px;
-  background-color: #fcede8;
+  min-width: 320px;
+  max-width: 530px;
+  width: 100%;
+  height: 394px;
+  align-self: flex-end;
   border-radius: 53px 0 0 53px;
+  overflow: hidden;
+  background-color: #fcede8;
+}
 
-  img {
-    width: 1000px;
-    height: 519px;
-    margin-top: 60px;
-    margin-left: 30px;
+.image_wrapper {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.image_wrapper_hidden {
+  opacity: 0;
+}
+
+.carousel_img_bg img {
+  margin-top: 40px;
+  height: 341px;
+}
+
+@media (min-width: 768px) {
+  .carousel {
+    flex-direction: column-reverse;
+  }
+
+  .circles_wrapper {
+    margin: 67px 40px 0 0;
+    justify-content: flex-end;
+  }
+
+  .carousel_img_bg {
+    min-width: 700px;
+    height: 592px;
+  }
+
+  .image_wrapper img {
+    width: 1033px;
+    height: 545px;
   }
 }
 
+@media (min-width: 1024px) {
+  .carousel {
+    flex-direction: row;
+  }
+
+  .circles_wrapper {
+    left: 66px;
+    margin: 430px 0 0 0;
+    position: absolute;
+    justify-content: normal;
+  }
+
+  .carousel_img_bg {
+    min-width: 566px;
+    height: 592px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .carousel {
+
+  }
+
+  .circles_wrapper {
+    margin-top: 430px;
+    justify-content: normal;
+  }
+
+  .carousel_img_bg {
+    min-width: 747px;
+  }
+}
 

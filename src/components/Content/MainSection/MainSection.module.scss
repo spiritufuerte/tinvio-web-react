@@ -1,46 +1,114 @@
-@media (max-width: 360px) {
-  .section {
-    width: 360px;
-
-    .boxes_image_wrapper {
-      width: 220px;
-      margin-top: 482px;
-    }
-
-    .fruits_image_wrapper {
-      margin-top: 547px;
-      width: 167px;
-      margin-left: 193px;
-    }
-
-    h1 {
-      padding-top: 52px;
-    }
-
-    h2 {
-      font-size: 28px;
-      width: 312px;
-    }
-
-    button {
-      display: inline;
-    }
-  }
+.section {
+  background-color: #fcfdff;
+  text-align: center;
+  height: 1130px;
 }
 
-@media (min-width: 361px) {
+button {
+  display: inline;
+  z-index: 1;
+}
+
+.content_wrapper h1 {
+  padding-top: 52px;
+  font-size: 13px;
+  text-align: center;
+  color: #f43939;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.content_wrapper h2 {
+  font-size: 28px;
+  width: 312px;
+  font-weight: bold;
+  text-align: center;
+  color: #21272e;
+  align-items: center;
+  margin: 16px auto 0;
+}
+
+.button {
+  position: relative;
+  z-index: 2;
+  border-radius: 8px;
+  background-image: linear-gradient(104deg, #ff474d, #fa4353);
+  text-align: center;
+  color: #ffffff;
+  padding-left: 73.5px;
+  line-height: 1.33;
+  font-weight: 400;
+  margin-top: 40px;
+  width: 214px;
+  height: 52px;
+  font-size: 15px;
+  cursor: pointer;
+
+  border: 0 solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  outline: 1px solid rgba(255, 255, 255, .5);
+  outline-offset: 0px;
+  text-shadow: none;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.button:hover {
+  border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388;
+}
+
+.fruits_image_wrapper {
+  margin-top: 547px;
+  width: 167px;
+  position: absolute;
+  background-image: url('../../../assets/image/Fruits.png');
+  background-position: left;
+  background-size: cover;
+  height: 536px;
+  right: 0;
+}
+
+.boxes_image_wrapper {
+  height: 536px;
+  width: 220px;
+  margin-top: 482px;
+  position: absolute;
+  background-image: url('../../../assets/image/Boxes.png');
+  background-size: cover;
+  background-position: right;
+}
+
+.content_wrapper p {
+  font-size: 12px;
+  position: static;
+  color: #909599;
+  text-align: center;
+  margin-top: 15px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+@media (min-width: 768px) {
   .section {
-    width: 768px;
     height: 620px;
+  }
 
-    h1 {
-      padding-top: 110px;
-    }
+  .content_wrapper {
+    margin: 0 auto;
+    width: 768px;
+  }
 
-    h2 {
-      font-size: 40px;
-      width: 718px;
-    }
+  .content_wrapper h1 {
+    padding-top: 110px;
+  }
+
+  .content_wrapper h2 {
+    font-size: 40px;
+    width: 718px;
   }
 
   .boxes_image_wrapper {
@@ -51,20 +119,20 @@
   .fruits_image_wrapper {
     margin-top: 30px;
     width: 162px;
-    margin-left: 606px;
   }
 }
 
-
-@media (min-width: 769px) {
+@media (min-width: 1024px) {
   .section {
-    width: 1024px;
     height: 620px;
+  }
 
+  .content_wrapper {
+    width: 1024px;
+  }
 
-    h2 {
-      width: 812px;
-    }
+  .content_wrapper h2 {
+    width: 812px;
   }
 
   .boxes_image_wrapper {
@@ -73,19 +141,20 @@
 
   .fruits_image_wrapper {
     width: 194px;
-    margin-left: 830px;
   }
 }
 
-@media (min-width: 1025px) {
-
+@media (min-width: 1280px) {
   .section {
-    width: 1280px;
     height: 620px;
+  }
 
-    h2 {
-      width: 812px;
-    }
+  .content_wrapper h2 {
+    width: 812px;
+  }
+
+  .content_wrapper {
+    width: 1280px;
   }
 
   .boxes_image_wrapper {
@@ -94,68 +163,9 @@
 
   .fruits_image_wrapper {
     width: 273px;
-    margin-left: 1007px;
   }
 }
 
-.section {
-  background-color: #fcfdff;
-  text-align: center;
 
-  h1 {
-    font-size: 13px;
-    text-align: center;
-    color: #f43939;
-    letter-spacing: 1px;
-    font-weight: bold;
-    margin: 0;
-  }
 
-  h2 {
-    font-weight: bold;
-    text-align: center;
-    color: #21272e;
-    align-items: center;
-    margin: 16px auto 0;
-  }
 
-  button {
-    border-radius: 8px;
-    background-image: linear-gradient(104deg, #ff474d, #fa4353);
-    text-align: center;
-    color: #ffffff;
-    padding-left: 73.5px;
-    line-height: 1.33;
-    font-weight: 400;
-    margin-top: 40px;
-    width: 214px;
-    height: 52px;
-    font-size: 15px;
-  }
-
-  .fruits_image_wrapper {
-    position: absolute;
-    background-image: url('../../../assets/image/Fruits.png');
-    background-position: left;
-    background-size: cover;
-    height: 536px;
-  }
-
-  p {
-    font-size: 12px;
-    position: static;
-    color: #909599;
-    text-align: center;
-    margin-top: 15px;
-    font-weight: 300;
-    letter-spacing: 0.5px;
-  }
-}
-
-.boxes_image_wrapper {
-  height: 536px;
-  position: absolute;
-  background-image: url('../../../assets/image/Boxes.png');
-  background-size: cover;
-  background-position: right;
-}

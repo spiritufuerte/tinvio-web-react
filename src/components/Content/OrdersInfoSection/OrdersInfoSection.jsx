@@ -14,9 +14,9 @@ const OrdersInfoSection = () => {
             <div className={classes.partners_wrapper}>
                 <div className={classes.desktop_img}>
                 </div>
-               <h1>Trusted by 1000+ partners across APAC</h1>
+                <h1>Trusted by 1000+ partners across APAC</h1>
                 <div className={classes.swipable_images}></div>
-                 <div className={classes.images_wrapper}>
+                <div className={classes.images_wrapper}>
                     <img src={chickenLogo} alt="Lines" title="Lines"/>
                     <img src={joliebeanLogo} alt="Lines" title="Lines"/>
                     <img src={bensLogo} alt="Lines" title="Lines"/>

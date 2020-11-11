@@ -5,7 +5,6 @@ import Content from "./components/Content/Content";
 import Footer from "./components/Footer/Footer";
 import classes from './App.module.scss';
 
-
 export function App() {
     return (
         <div className="App">

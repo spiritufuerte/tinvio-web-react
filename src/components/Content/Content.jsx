@@ -1,5 +1,4 @@
 import React from 'react';
-import classes from './Content.module.scss';
 import MainSection from "./MainSection/MainSection";
 import OrdersInfoSection from "./OrdersInfoSection/OrdersInfoSection";
 import CommunicationSection from "./CommunicationSection/CommunicationSection";
@@ -10,7 +9,7 @@ import FormSection from "./FormSection/FormSection";
 
 const Content = () => {
     return (
-        <main className={classes.main_wrapper}>
+        <main>
             <MainSection/>
             <OrdersInfoSection/>
             <CommunicationSection/>

@@ -10,27 +10,29 @@ const FormSection = () => {
             <div className={classes.violet_circle}></div>
             <div className={classes.pink_circle}></div>
             <div className={classes.blue_circle}></div>
-            <div className={classes.contact_block}>
-                <div className={classes.header_text}>
-                    <h3>LET'S DO THIS</h3>
-                    <h1>Fill up the form and we’ll get in touch within
-                        a few hours
-                    </h1>
-                </div>
-                <div className={classes.form_block}>
-                    <div className={classes.arrow_wrapper}>
-                        <img src={arrowRight} title='arrow' alt='some'/>
-                        <p>Let’s get to know each other</p>
+            <div className={classes.section_content}>
+                <div className={classes.contact_block}>
+                    <div className={classes.header_text}>
+                        <h3>LET'S DO THIS</h3>
+                        <h1>Fill up the form and we’ll get in touch within
+                            a few hours
+                        </h1>
                     </div>
-                    <ContactForm/>
+                    <div className={classes.form_block}>
+                        <div className={classes.arrow_wrapper}>
+                            <img src={arrowRight} title='arrow' alt='some'/>
+                            <p>Let’s get to know each other</p>
+                        </div>
+                        <ContactForm/>
+                    </div>
                 </div>
-            </div>
-            <div className={classes.language_block}>
-                <div className={classes.arrow_lang_wrapper}>
-                    <img src={arrowRight} title='arrow' alt='some'/>
-                    <p>Or meet us in</p>
+                <div className={classes.language_block}>
+                    <div className={classes.arrow_lang_wrapper}>
+                        <img src={arrowRight} title='arrow' alt='some'/>
+                        <p>Or meet us in</p>
+                    </div>
+                    <LanguageComponent/>
                 </div>
-                <LanguageComponent/>
             </div>
         </section>
     )

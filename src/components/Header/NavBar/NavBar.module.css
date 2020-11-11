@@ -13,3 +13,7 @@
     height: 17px;
     font-weight: 600;
 }
+
+.nav a:hover {
+    color: #3897ff;
+}

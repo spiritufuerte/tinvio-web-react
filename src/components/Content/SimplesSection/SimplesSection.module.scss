@@ -1,168 +1,136 @@
-@media (max-width: 360px) {
-  .section {
-    width: 360px;
-
-    .steps_wrapper {
-      flex-direction: column;
-    }
-
-    .line {
-      width: 2px;
-      height: 56px;
-      margin: 24px auto;
-    }
-
-    h1 {
-      font-size: 28px;
-      margin: 6px auto 79px;
-      width: 300px;
-    }
-
-    h2 {
-      padding-top: 73px;
-    }
-
-    h3 {
-      margin: 16px auto 8px;
-    }
-  }
-}
-
-@media (min-width: 361px) {
-  .section {
-    width: 768px;
-
-    .steps_wrapper {
-      flex-direction: column;
-    }
-
-    .line {
-      width: 2px;
-      height: 56px;
-      margin: 24px auto;
-    }
-
-    h2 {
-      padding-top: 88px;
-    }
-
-    h1 {
-      font-size: 32px;
-      margin: 6px 0 79px;
-    }
-
-    h3 {
-      margin: 16px auto 8px;
-    }
-  }
-}
-
-@media (min-width: 769px) {
-  .section {
-    width: 1024px;
-
-    .steps_wrapper {
-      flex-direction: row;
-      width: 920px;
-    }
-
-    h1 {
-      margin: 6px 0 87px;
-    }
-
-    h3 {
-      margin: 32px auto 8px;
-    }
-
-    .line {
-      width: 272px;
-      height: 2px;
-      margin: 28px -70px;
-    }
-  }
-}
-
-@media (min-width: 1025px) {
-  .section {
-    width: 1280px;
-
-    .steps_wrapper {
-      width: 1100px;
-    }
-
-    .line {
-      margin: 28px -41px;
-    }
-  }
-}
-
 .section {
   background-color: #fcfdff;
   padding-bottom: 90px;
+}
 
+.steps_wrapper {
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.block img {
+  width: 57px;
+  height: 56px;
+  object-fit: contain;
+}
+
+.first_text {
+  margin: 0 auto;
+  width: 290px;
+}
+
+.second_text {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.third_text {
+  margin: 0 auto;
+  width: 151px;
+}
+
+.section h2 {
+  padding-top: 73px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #f43939;
+}
+
+.section h1 {
+  font-size: 28px;
+  margin: 6px auto 79px;
+  width: 300px;
+  font-weight: bold;
+  text-align: center;
+  color: #21272e;
+}
+
+.line {
+  width: 2px;
+  height: 56px;
+  margin: 24px auto;
+  opacity: 0.1;
+  background-color: #21272e;
+}
+
+.block h3 {
+  margin: 16px auto 8px;
+  width: 237px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #21272e;
+}
+
+.block p {
+  position: static;
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  color: #787c80;
+  width: 220px;
+}
+
+@media (min-width: 768px) {
   .steps_wrapper {
-    display: flex;
-    text-align: center;
-    margin: 0 auto;
-
-    .block {
-      img {
-        width: 57px;
-        height: 56px;
-        object-fit: contain;
-      }
-
-      .first_text {
-        margin: 0 auto;
-          width: 290px;
-      }
-
-      .second_text {
-          width: 200px;
-        margin: 0 auto;
-      }
-
-      .third_text {
-        margin: 0 auto;
-          width: 151px;
-      }
-    }
-  }
-
-  h2 {
-    text-align: center;
-    font-size: 13px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    color: #f43939;
-  }
-
-  h1 {
-    font-weight: bold;
-    text-align: center;
-    color: #21272e;
+    flex-direction: column;
   }
 
   .line {
-    opacity: 0.1;
-    background-color: #21272e;
+    width: 2px;
+    height: 56px;
+    margin: 24px auto;
   }
 
-  h3 {
-    width: 237px;
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-    color: #21272e;
+  .section h2 {
+    padding-top: 88px;
   }
 
-  p {
-    position: static;
-    margin-top: 0;
-    font-size: 14px;
-    font-weight: 600;
-    text-align: center;
-    color: #787c80;
-    width: 220px;
+  .section h1 {
+    font-size: 32px;
+    margin: 6px auto 79px;
+  }
+
+  .block h3 {
+    margin: 16px auto 8px;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  .steps_wrapper {
+    flex-direction: row;
+    width: 920px;
+  }
+
+  .section h1 {
+    margin: 6px auto 87px;
+  }
+
+  .block h3 {
+    margin: 32px auto 8px;
+  }
+
+  .line {
+    width: 272px;
+    height: 2px;
+    margin: 28px -70px;
   }
 }
+
+@media (min-width: 1280px) {
+  .steps_wrapper {
+    width: 1100px;
+  }
+
+  .line {
+    margin: 28px -41px;
+  }
+}
+
+

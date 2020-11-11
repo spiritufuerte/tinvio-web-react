@@ -14,7 +14,7 @@ const ContactForm = () => {
                     <input className={classes.last_numbers} type='tel'/>
                 </div>
                 <div className={classes.buttons_wrapper}>
-                    <button type="submit">Get Started</button>
+                    <button className={classes.button} type="submit">Get Started</button>
                     <p>No spam, promise 🙌</p>
                 </div>
             </div>
