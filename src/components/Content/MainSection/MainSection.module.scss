@@ -10,72 +10,66 @@ button {
 }
 
 .content_wrapper h1 {
-  padding-top: 52px;
+  padding-top: 36px;
   font-size: 13px;
   text-align: center;
   color: #f43939;
   letter-spacing: 1px;
   font-weight: bold;
-  margin: 0;
+  margin: 0 0 0 22px;
 }
 
 .content_wrapper h2 {
+  line-height: 39px;
   font-size: 28px;
   width: 312px;
   font-weight: bold;
   text-align: center;
   color: #21272e;
   align-items: center;
-  margin: 16px auto 0;
+  margin: 13px auto 0;
 }
 
 .button {
   position: relative;
   z-index: 2;
+  border: none;
   border-radius: 8px;
+  box-shadow: 0 8px 27px -10px rgba(0, 0, 0, 0.5);
   background-image: linear-gradient(104deg, #ff474d, #fa4353);
-  text-align: center;
   color: #ffffff;
-  padding-left: 73.5px;
+  padding: 0 0 6px 42px;
   line-height: 1.33;
   font-weight: 400;
-  margin-top: 40px;
+  margin-top: 48px;
   width: 214px;
   height: 52px;
   font-size: 15px;
   cursor: pointer;
-
-  border: 0 solid;
-  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
-  outline: 1px solid rgba(255, 255, 255, .5);
-  outline-offset: 0px;
+  outline-offset: 0;
   text-shadow: none;
-  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .button:hover {
-  border: 1px solid;
-  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
-  outline-color: rgba(255, 255, 255, 0);
-  outline-offset: 15px;
-  text-shadow: 1px 1px 2px #427388;
+  background-image: linear-gradient(104deg,#f0464b,#f0505d);
+  transition: .4s;
 }
 
 .fruits_image_wrapper {
-  margin-top: 547px;
-  width: 167px;
+  margin-top: 499px;
+  width: 163px;
+  height: 528px;
   position: absolute;
   background-image: url('../../../assets/image/Fruits.png');
   background-position: left;
   background-size: cover;
-  height: 536px;
   right: 0;
 }
 
 .boxes_image_wrapper {
-  height: 536px;
-  width: 220px;
-  margin-top: 482px;
+  height: 554px;
+  width: 225px;
+  margin-top: 435px;
   position: absolute;
   background-image: url('../../../assets/image/Boxes.png');
   background-size: cover;
@@ -87,7 +81,7 @@ button {
   position: static;
   color: #909599;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 16px;
   font-weight: 300;
   letter-spacing: 0.5px;
 }
@@ -103,17 +97,24 @@ button {
   }
 
   .content_wrapper h1 {
-    padding-top: 110px;
+    margin: 0;
+    padding-top: 113px;
   }
 
   .content_wrapper h2 {
     font-size: 40px;
     width: 718px;
+    line-height: 57px;
+    margin: 13px auto 0;
+  }
+
+  .button {
+    margin-top: 112px;
   }
 
   .boxes_image_wrapper {
-    width: 145px;
-    margin-top: 30px;
+    width: 149px;
+    margin-top: 43px;
   }
 
   .fruits_image_wrapper {
@@ -136,11 +137,15 @@ button {
   }
 
   .boxes_image_wrapper {
-    width: 175px;
+    width: 181px;
   }
 
   .fruits_image_wrapper {
-    width: 194px;
+    width: 177px;
+  }
+
+  .button {
+    margin-top: 48px;
   }
 }
 
@@ -158,11 +163,11 @@ button {
   }
 
   .boxes_image_wrapper {
-    width: 273px;
+    width: 275px;
   }
 
   .fruits_image_wrapper {
-    width: 273px;
+    width: 265px;
   }
 }
 

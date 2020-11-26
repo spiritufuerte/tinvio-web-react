@@ -1,6 +1,6 @@
 .section {
-  background-color: #fcfdff;
-  padding-bottom: 90px;
+  background-color: #fafbfd;
+  padding-bottom: 82px;
 }
 
 .steps_wrapper {
@@ -32,7 +32,7 @@
 }
 
 .section h2 {
-  padding-top: 73px;
+  padding-top: 74px;
   text-align: center;
   font-size: 13px;
   font-weight: bold;
@@ -41,24 +41,45 @@
 }
 
 .section h1 {
+  line-height: 42px;
   font-size: 28px;
-  margin: 6px auto 79px;
+  margin: 6px auto 57px;
   width: 300px;
   font-weight: bold;
   text-align: center;
   color: #21272e;
 }
 
+#center_text {
+  width: 200px;
+}
+
+#first_block {
+  margin: 0;
+}
+
+#second_block {
+  margin: 0;
+}
+
+#last_block {
+  margin: 17px 0 0 0;
+}
+
 .line {
   width: 2px;
   height: 56px;
-  margin: 24px auto;
+  margin: 25px auto 22px;
   opacity: 0.1;
   background-color: #21272e;
 }
 
+#last_line {
+  margin: 12px auto;
+}
+
 .block h3 {
-  margin: 16px auto 8px;
+  margin: 6px auto 2px;
   width: 237px;
   font-size: 18px;
   font-weight: bold;
@@ -73,10 +94,14 @@
   font-weight: 600;
   text-align: center;
   color: #787c80;
-  width: 220px;
+  width: 287px;
 }
 
 @media (min-width: 768px) {
+  .section {
+    padding-bottom: 103px;
+  }
+
   .steps_wrapper {
     flex-direction: column;
   }
@@ -88,18 +113,34 @@
   }
 
   .section h2 {
-    padding-top: 88px;
+    padding-top: 86px;
   }
 
   .section h1 {
+    width: 483px;
     font-size: 32px;
-    margin: 6px auto 79px;
+    margin: 16px auto 79px;
+  }
+
+  .block p {
+    width: 290px;
   }
 
   .block h3 {
-    margin: 16px auto 8px;
+    margin: 4px auto 3px;
   }
 
+  #last_block {
+    margin-top: 23px;
+  }
+
+  #last_block p {
+    width: 209px;
+  }
+
+  #last_line {
+    margin: 1px auto;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -109,17 +150,42 @@
   }
 
   .section h1 {
-    margin: 6px auto 87px;
+    margin: 6px auto 91px;
+  }
+
+  .section h2 {
+    padding-top: 77px;
   }
 
   .block h3 {
-    margin: 32px auto 8px;
+    margin: 21px auto 2px;
   }
 
   .line {
-    width: 272px;
+    position: absolute;
+    width: 218px;
     height: 2px;
-    margin: 28px -70px;
+    margin: 27px 0 0 173px;
+  }
+
+  #last_line {
+    margin: 27px 0 0 519px;
+  }
+
+  #first_block {
+    margin: 0 0 0 -31px;
+  }
+
+  #second_block {
+    margin: 0 0 0 81px;
+  }
+
+  #last_block {
+    margin: 0 0 0 105px;
+  }
+
+  #last_block p {
+    width: 140px;
   }
 }
 
@@ -128,8 +194,28 @@
     width: 1100px;
   }
 
+  #last_line {
+    margin: 27px 0 0 608px;
+  }
+
+  #first_block {
+    margin: 0 0 0 11px;
+  }
+
+  #second_block {
+    margin: 0 0 0 129px;
+  }
+
+  #last_block {
+    margin: 0 0 0 156px;
+  }
+
+  #last_block p {
+    width: 140px;
+  }
   .line {
-    margin: 28px -41px;
+    width: 273px;
+    margin: 28px 0 0 218px;
   }
 }
 

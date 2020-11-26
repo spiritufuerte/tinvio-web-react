@@ -10,7 +10,7 @@ import check from "../../../assets/image/icon-24-check.svg";
 const ExperienceSection = () => {
     return (
         <section className={classes.section}>
-            <div className={classes.section_content}>
+            <div className={classes.content}>
                 <div className={classes.text_block}>
                     <h1>Seamless Ordering Experience</h1>
                     <p>Increase your sales by 30% with a better checkout experience. Your
@@ -37,7 +37,7 @@ const ExperienceSection = () => {
                         <img src={thirdScreen} title='third image' alt='some'/>
                         <div className={classes.card_text_wrapper}>
                             <p>Send Order</p>
-                            <img src={check} title='third image' alt='some'/>
+                            <img src={check} title='check image' alt='some'/>
                         </div>
                     </div>
                 </div>

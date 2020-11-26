@@ -15,7 +15,7 @@ const Content = () => {
             <CommunicationSection/>
             <ExperienceSection/>
             <SimplesSection/>
-            <FormSection />
+           <FormSection />
         </main>
     )
 }

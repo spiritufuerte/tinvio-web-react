@@ -9,20 +9,19 @@
   font-weight: 500;
   line-height: 1.36;
   color: #b4babf;
-  padding-left: 20px;
 }
 
 .form {
   margin: 0 auto;
   width: 312px;
-  height: 489px;
+  height: 472px;
   border-radius: 13px;
   box-shadow: 0 6px 14px -6px rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
 }
 
 .input_wrapper {
-  margin: 0 27px;
+  margin: 0 34px;
   padding-top: 15px;
   text-align: center;
 }
@@ -32,27 +31,44 @@
   font-size: 18px;
   font-weight: bold;
   color: #21272e;
-  margin-bottom: 40px;
+  margin-bottom: 45px;
 }
 
 .input_tel {
   display: flex;
   flex-direction: row;
-  height: 89px;
+  height: 84px;
 }
 
 .input_text {
   width: 252px;
-  height: 89px;
+  height: 84px;
 }
 
-input:focus {
+.input_text input:focus {
   outline: none;
-  border-color: #000;
+  border: solid 2px #787c80;
+}
+
+input[type=text] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input[type=tel] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.input_tel input:focus {
+  outline: none;
+  border: solid 2px #787c80;
 }
 
 .first_numbers {
-  height: 56px;
+  height: 52px;
   @extend %input_style;
 }
 
@@ -61,49 +77,44 @@ input:focus {
 }
 
 .last_numbers {
-  height: 56px;
+  height: 52px;
   @extend %input_style;
-  margin-left: 10px;
+  margin-left: 16px;
   background-image: url('../../../../assets/image/icon-24-phone.svg');
   background-repeat: no-repeat;
-  background-position: right center;
+  background-position: center right 16px;
   background-size: 24px;
 }
 
 .buttons_wrapper {
   flex-direction: column;
-  margin-top: 15px;
+  margin-top: 7px;
   display: flex;
   align-items: center;
+  margin-left: 0;
 }
 
 .button {
   display: block;
-  width: 252px;
+  width: 244px;
   height: 52px;
   border-radius: 8px;
   color: #ffffff;
   background-image: linear-gradient(107deg, #ff474d, #fa4353);
-  font-size: 15px;
+  margin-left: 5px;
+  padding-left: 24px;
+  font-size: 14px;
   font-weight: bold;
   line-height: 1.33;
   text-align: center;
   cursor: pointer;
 
-  border: 0 solid;
-  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
-  outline: 1px solid rgba(255, 255, 255, .5);
-  outline-offset: 0px;
-  text-shadow: none;
-  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+  outline-offset: 0;
 }
 
 .button:hover {
-  border: 1px solid;
-  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
-  outline-color: rgba(255, 255, 255, 0);
-  outline-offset: 15px;
-  text-shadow: 1px 1px 2px #427388;
+  background-image: linear-gradient(104deg,#f0464b,#f0505d);
+  transition: .4s;
 }
 
 .buttons_wrapper p {
@@ -116,17 +127,20 @@ input:focus {
 }
 
 .input_text input {
-  width: 252px;
-  height: 56px;
+  width: 239px;
+  height: 49px;
+  padding-left: 14px;
   @extend %input_style;
 }
 
 .first_numbers {
-  width: 80px;
+  width: 74px;
+  padding-left: 14px;
 }
 
 .last_numbers {
-  width: 156px;
+  padding-left: 14px;
+  width: 150px;
 }
 
 input:focus {
@@ -142,7 +156,7 @@ input::placeholder {
   .form {
     margin: 0 auto;
     width: 407px;
-    height: 461px;
+    height: 463px;
   }
 
   .input_wrapper {
@@ -151,15 +165,17 @@ input::placeholder {
 
   .input_wrapper h1 {
     text-align: left;
+    margin-bottom: 49px;
   }
 
   .input_text {
     width: 343px;
+    height: 88px;
   }
 
   .input_text input {
-    width: 343px;
-    height: 56px;
+    width: 337px;
+    height: 52px;
   }
 
   .input_tel {
@@ -167,7 +183,7 @@ input::placeholder {
   }
 
   .first_numbers {
-    width: 96px;
+    width: 89px;
   }
 
   .last_numbers {
@@ -176,6 +192,8 @@ input::placeholder {
 
   .buttons_wrapper {
     flex-direction: row;
+    margin-top: 6px;
+    margin-left: -5px;
   }
 
   .button {
@@ -183,7 +201,8 @@ input::placeholder {
   }
 
   .buttons_wrapper p {
-    margin-left: 25px;
+    margin-left: 34px;
+    margin-top: 15px;
   }
 }
 

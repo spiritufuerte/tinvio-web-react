@@ -10,7 +10,7 @@
 
 .images_wrapper {
   flex-direction: column;
-  margin: 30px auto 0;
+  margin: 18px auto 0;
   display: flex;
   align-items: center;
 }
@@ -24,7 +24,7 @@
   cursor: pointer;
   width: 20px;
   height: 20px;
-  margin: 0 15px 0;
+  margin: 0 16px 0px 8px;
 }
 
 
@@ -47,7 +47,7 @@ button {
 }
 
 .nav_wrapper img {
-  margin: 40px 20px 35px 0;
+  margin: 47px 1px 39px 0;
   width: 120px;
   height: 48px;
   object-fit: contain;
@@ -63,7 +63,7 @@ button {
 }
 
 .store_images {
-  margin-top: 20px;
+  margin-top: 40px;
   margin-left: 0;
   width: 300px;
   display: flex;
@@ -85,13 +85,14 @@ p {
   height: 24px;
   opacity: 0.2;
   background-color: #ffffff;
-  margin-right: 24px;
+  margin-right: 25px;
+  margin-left: 11px;
 }
 
 
 @media (min-width: 768px) {
   .wrapper {
-    height: 211px;
+    height: 190px;
   }
 
   .footer {
@@ -107,12 +108,12 @@ p {
 
   .images_wrapper {
     flex-direction: row;
-    margin: 0 0 0 275px;
+    margin: -16px 0 0 264px;
   }
 
   .store_images {
     margin-top: 0;
-    margin-left: 50px;
+    margin-left: 82px;
   }
 
   .line {
@@ -121,7 +122,11 @@ p {
 
   .footer p {
     position: absolute;
-    margin: -30px 0px 0px 50px;
+    margin: -30px 0px 0px 60px;
+  }
+
+  .social_logo img {
+    margin: 0px 14px 0px 0px;
   }
 }
 
@@ -138,20 +143,20 @@ p {
   }
 
   .nav_wrapper {
-    margin: 0;
+    margin: -6px 0 0 32px;
     padding-top: 0;
   }
 
   .images_wrapper {
-    margin: 0;
+    margin: 0 0 0 15px;
   }
 
   .store_images {
-    margin-left: 50px;
+    margin-left: 37px;
   }
 
   .footer p {
-    margin-top: 100px;
+    margin: 108px 0px 0px 49px;
   }
 }
 
@@ -162,10 +167,16 @@ p {
     margin: 0 auto;
   }
 
-  .store_images {
-    margin-left: 300px;
+  .nav_wrapper {
+    margin: -10px 0 0 62px;
   }
 
+  .store_images {
+    margin-left: 229px;
+  }
 
+  .footer p {
+    margin: 106px 0px 0px 79px;
+  }
 }
 

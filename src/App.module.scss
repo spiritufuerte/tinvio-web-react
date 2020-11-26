@@ -1,4 +1,14 @@
+button:active, button:focus {
+  outline: none;
+}
 
+input {
+  -webkit-box-shadow: none;
+}
+
+img:active, img:focus {
+  outline: none;
+}
 
 @media (min-width: 768px) {
   .lines_wrapper {

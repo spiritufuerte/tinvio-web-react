@@ -15,7 +15,7 @@ const Footer = () => {
                     <img src={logoWhite} alt="Logo" title="Logo"/>
                     <div className={classes.line}>
                     </div>
-                    <FooterNavBar/>
+                    <FooterNavBar />
                 </div>
                 <div className={classes.images_wrapper}>
                     <div className={classes.line}>

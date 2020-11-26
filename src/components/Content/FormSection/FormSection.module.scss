@@ -6,7 +6,7 @@
 }
 
 .section {
-  height: 1156px;
+  height: 1168px;
   background-image: linear-gradient(to top, #fafafc, rgba(255, 255, 255, 0.45));
 }
 
@@ -18,11 +18,12 @@
 
 .contact_block {
   text-align: center;
-  margin: 0 auto 30px;
+  margin: -8px auto 52px;
 }
 
 .header_text {
-  padding-top: 40px;
+  padding-left: 0;
+  padding-top: 65px;
 }
 
 .header_text h3 {
@@ -34,7 +35,8 @@
 }
 
 .header_text h1 {
-  margin: 0 auto;
+  margin: 11px auto;
+  line-height: 39px;
   font-size: 28px;
   max-width: 330px;
   font-weight: bold;
@@ -42,8 +44,8 @@
 }
 
 .arrow_wrapper img {
-  margin-top: 36px;
-  margin-left: -95px;
+  margin-top: 25px;
+  margin-left: -94px;
   width: 120px;
   height: 70px;
   object-fit: contain;
@@ -51,7 +53,7 @@
 }
 
 .arrow_wrapper p {
-  margin: -54px 0px 35px 112px;
+  margin: -45px 0px 28px 116px;
   position: static;
   text-align: left;
   height: 29px;
@@ -61,13 +63,13 @@
 
 .arrow_lang_wrapper img {
   margin-left: 75px;
-  width: 110px;
+  width: 107px;
   height: 64px;
   object-fit: contain;
 }
 
 .arrow_lang_wrapper p {
-  margin: -45px 0 22px 35px;
+  margin: -48px 0 22px 47px;
   position: static;
   width: 246px;
   text-align: left;
@@ -103,11 +105,11 @@
 
 @media (min-width: 768px) {
   .section {
-    height: 1090px;
+    height: 1124px;
   }
 
   .section_content {
-    margin: 0 auto;
+    margin: 60px auto;
     width: 768px;
     min-width: 768px;
   }
@@ -121,14 +123,14 @@
   .blue_circle {
     width: 160px;
     height: 160px;
-    margin-top: 445px;
-    margin-left: -23px;
+    margin-top: 458px;
+    margin-left: -45px;
   }
 
   .pink_circle {
     width: 256px;
     height: 256px;
-    margin-left: 343px;
+    margin-left: 330px;
     margin-top: 179px;
   }
 
@@ -137,11 +139,13 @@
   }
 
   .header_text {
-    padding-top: 40px;
+    padding-left: 31px;
+    padding-top: 49px;
   }
 
   .header_text h1 {
-    margin: 0 auto;
+    margin: 20px auto;
+    line-height: 40px;
     font-size: 32px;
     max-width: 506px;
   }
@@ -151,35 +155,35 @@
   }
 
   .arrow_wrapper img {
-    margin-top: 58px;
+    margin-top: 43px;
     margin-left: -400px;
   }
 
   .arrow_wrapper p {
-    margin: -50px 0px 35px 75px;
+    margin: -41px 0px 35px 69px;
   }
 
   .language_block {
-    margin: 0 auto;
+    margin: -27px 0 0 0;
   }
 
   .arrow_lang_wrapper img {
-    margin-left: 300px;
+    margin-left: 352px;
   }
 
   .arrow_lang_wrapper p {
-    margin: -45px 0 22px 265px;
+    margin: -45px 0 22px 323px;
   }
 }
 
 
 @media (min-width: 1024px) {
   .section {
-    height: 890px;
+    height: 760px;
   }
 
   .section_content {
-    margin: 0 auto;
+    margin: -26px auto;
     width: 1024px;
     min-width: 1024px;
   }
@@ -189,8 +193,8 @@
   }
 
   .pink_circle {
-    margin-left: 373px;
-    margin-top: 204px;
+    margin-left: 350px;
+    margin-top: 195px;
   }
 
   .contact_block {
@@ -205,13 +209,18 @@
   }
 
   .header_text h1 {
-    margin: 0;
+    margin: 12px 0 0 -63px;
+    line-height: 58px;
     font-size: 40px;
     width: 400px;
   }
 
+  .header_text h3 {
+    margin: 6px 0px 0 -61px;
+  }
+
   .form_block {
-    margin-left: 97px;
+    margin-left: 130px;
   }
 
   .arrow_wrapper {
@@ -247,7 +256,7 @@
   }
 
   .section {
-    height: 679px;
+    height: 684px;
   }
 
   .section_content {
@@ -257,7 +266,7 @@
   }
 
   .contact_block {
-    margin: 135px 149px 124px 76px;
+    margin: 116px 148px 125px 105px;
   }
 
   .header_text h1 {
@@ -273,7 +282,15 @@
   }
 
   .language_block {
-    margin: -327px 0px 91px 75px;
+    margin: -327px 0px 91px 98px;
+  }
+
+  .arrow_lang_wrapper img {
+    margin-left: -52px;
+  }
+
+  .arrow_lang_wrapper p {
+    margin: -45px 0 22px -76px;
   }
 }
 

@@ -5,7 +5,7 @@
 }
 
 .header_block {
-  height: 80px;
+  height: 83px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -44,14 +44,13 @@
   cursor: pointer;
 }
 
-
 .button:hover {
-  font-size: 14px;
-  background-color: #f0f1f2;
-  color: #787c80;
-  -webkit-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  transition: all 0.4s;
+  background-color: rgba(0,0,0,.1);
+  transition: .4s;
+}
+
+.navbar_icon {
+  margin-top: 8px;
 }
 
 .nav_wrapper {
@@ -66,13 +65,9 @@
   height: 48px;
 }
 
-.navbar_wrapper a {
-  color: #21272e;
-}
-
-
 @media (min-width: 768px) {
   .header_block {
+    height: 81px;
     box-sizing: border-box;
     width: 768px;
     padding-left: 64px;

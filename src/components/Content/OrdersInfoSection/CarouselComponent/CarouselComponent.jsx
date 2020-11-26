@@ -1,69 +1,52 @@
-import React, {useState} from 'react';
-import classes from './Carousel.module.scss';
+import React from 'react';
 import operationalCostsImage from '../../../../assets/image/Carousel/Operational Costs.png';
 import ordersImage from '../../../../assets/image/Carousel/Orders.png';
 import analyticsImage from '../../../../assets/image/Carousel/Analytics.png';
-import arrowLeft from "../../../../assets/image/icon-24-chevron1.svg";
-import arrowRight from "../../../../assets/image/icon-24-chevron.svg";
-import cn from 'classnames';
+import SwiperCore, {Navigation, Pagination, A11y} from 'swiper';
+import {Swiper, SwiperSlide} from "swiper/react";
+import 'swiper/swiper.scss';
+import 'swiper/components/navigation/navigation.scss';
+import 'swiper/components/pagination/pagination.scss';
+import 'swiper/components/scrollbar/scrollbar.scss';
+import classes from './Carousel.module.scss';
+
+SwiperCore.use([Navigation, Pagination, A11y]);
 
 const CarouselComponent = (props) => {
 
-    const imagesUrl = [ordersImage, operationalCostsImage, analyticsImage]
-
-    const [currentImageIndex, setImageIndex] = useState(0);
-    const [isHidden, setIsHidden] = useState(false);
-
-    const nextSlideHandler = () => {
-        setIsHidden(true);
-        setTimeout(() => {
-            if (currentImageIndex < imagesUrl.length - 1) {
-                setImageIndex(currentImageIndex + 1);
-            } else {
-                setImageIndex(0);
-            }
-        }, 400);
-        setTimeout(() => {
-            setIsHidden(false);
-        }, 400)
-    }
-
-    const prevSlideHandler = () => {
-        setIsHidden(true);
-        setTimeout(() => {
-            if (currentImageIndex > 0) {
-                setImageIndex(currentImageIndex - 1);
-            } else {
-                setImageIndex(imagesUrl.length - 1);
-            }
-        }, 400);
-        setTimeout(() => {
-            setIsHidden(false);
-        }, 400)
-    }
-
     return (
         <div className={classes.carousel}>
-            <div className={classes.circles}>
-                <div className={classes.circles_wrapper}>
-                    <div onClick={prevSlideHandler} className={classes.circle}>
-                        <img src={arrowLeft} alt="arrowLeft" title="arrowLeft"/>
-                    </div>
-                    <div className={classes.indicator_wrapper}>
-                        <div
-                            className={cn(classes.indicator, {[classes.indicator_active]: currentImageIndex === 0})}></div>
-                        <div className={cn(classes.indicator, {[classes.indicator_active]: currentImageIndex === 1})}></div>
-                        <div className={cn(classes.indicator, {[classes.indicator_active]: currentImageIndex === 2})}></div>
-                    </div>
-                    <div onClick={nextSlideHandler} className={classes.circle}>
-                        <img src={arrowRight} alt="arrowRight" title="arrowRight"/>
-                    </div>
-                </div>
-            </div>
             <div className={classes.carousel_img_bg}>
-                <div className={cn(classes.image_wrapper, {[classes.image_wrapper_hidden]: isHidden})}>
-                    <img src={imagesUrl[currentImageIndex]} alt='some'/>
+                <Swiper
+                    spaceBetween={0}
+                    slidesPerView={1}
+                    navigation={{
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev'
+                    }}
+                    pagination={{
+                        el: '.swiper-pagination',
+                        type: 'bullets',
+                        clickable: true
+                    }}
+                >
+                    <SwiperSlide>
+                        <div className={classes.img_wrapper}><img src={ordersImage} alt='some'/></div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className={classes.img_wrapper}><img src={operationalCostsImage} alt='some'/></div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className={classes.img_wrapper}><img src={analyticsImage} alt='some'/></div>
+                    </SwiperSlide>
+                </Swiper>
+            </div>
+            <div className={classes.circles_wrapper}>
+                <div className={`${classes.circle} ${classes.swiper_button_prev} swiper-button-prev`}/>
+                <div className={classes.indicator_wrapper}>
+                    <div className={`${classes.swiper_pagination} swiper-pagination`}/>
                 </div>
+                <div className={`${classes.circle} ${classes.swiper_button_next} swiper-button-next`}/>
             </div>
         </div>
     )
