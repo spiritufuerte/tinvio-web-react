@@ -38,7 +38,6 @@ button {
   box-shadow: 0 8px 27px -10px rgba(0, 0, 0, 0.5);
   background-image: linear-gradient(104deg, #ff474d, #fa4353);
   color: #ffffff;
-  padding: 0 0 6px 42px;
   line-height: 1.33;
   font-weight: 400;
   margin-top: 48px;
@@ -51,8 +50,46 @@ button {
 }
 
 .button:hover {
-  background-image: linear-gradient(104deg,#f0464b,#f0505d);
+  background-image: linear-gradient(104deg, #f0464b, #f0505d);
   transition: .4s;
+}
+
+.bg_img_wrapper {
+  margin: auto;
+  position: absolute;
+  height: 558px;
+  box-sizing: border-box;
+  display: flex;
+  min-width: 320px;
+  max-width: 767px;
+  right: 0;
+  left: 0;
+  top: 515px;
+}
+
+.left_img_wrapper {
+width: 73%;
+}
+
+.left_img_wrapper img {
+  height: 554px;
+  object-fit: cover;
+  object-position: 96% 31%;
+}
+
+.right_img_wrapper {
+  width: 50%;
+  transform: translate(0, 0);
+}
+
+.right_img_wrapper img {
+  height: 528px;
+  object-fit: cover;
+  object-position: left;
+}
+
+.boxes_image_wrapper img {
+  height: 100%;
 }
 
 .fruits_image_wrapper {
@@ -68,7 +105,8 @@ button {
 
 .boxes_image_wrapper {
   height: 554px;
-  width: 225px;
+  min-width: 225px;
+  width: 30%;
   margin-top: 435px;
   position: absolute;
   background-image: url('../../../assets/image/Boxes.png');
@@ -113,7 +151,6 @@ button {
   }
 
   .boxes_image_wrapper {
-    width: 149px;
     margin-top: 43px;
   }
 
@@ -136,9 +173,9 @@ button {
     width: 812px;
   }
 
-  .boxes_image_wrapper {
-    width: 181px;
-  }
+  /* .boxes_image_wrapper {
+     width: 181px;
+   }*/
 
   .fruits_image_wrapper {
     width: 177px;
@@ -162,13 +199,7 @@ button {
     width: 1280px;
   }
 
-  .boxes_image_wrapper {
-    width: 275px;
-  }
 
-  .fruits_image_wrapper {
-    width: 265px;
-  }
 }
 
 

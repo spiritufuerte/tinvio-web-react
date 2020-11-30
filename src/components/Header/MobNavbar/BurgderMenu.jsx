@@ -8,7 +8,7 @@ import cn from "classnames";
   width: 2rem;
   height: ${({open}) => open ? '2rem' : '17px'};
   position: ${({open}) => open ? 'fixed' : 'absolute'};
-  top: 32px;
+  top: 33px;
   right: 14px;
   z-index: 20;
   display: none;

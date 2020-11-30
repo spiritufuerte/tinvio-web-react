@@ -1,8 +1,7 @@
 .language_block {
-  margin: 25px auto 0;
-  padding: 18px 0 0 0;
-  width: 279px;
-  height: 129px;
+  margin: 0 auto 0;
+  width: 288px;
+  height: 149px;
   border-radius: 8px;
   box-shadow: 0 6px 14px -6px rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
@@ -15,11 +14,15 @@
   justify-content: space-around;
 }
 
+.country_column {
+  margin: 19px 0 0 0;
+}
+
 .country {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 0 0 8px 2px;
+  margin: 0 0 10px 2px;
 }
 
 .country img {
@@ -28,7 +31,7 @@
   margin: 5px 9px 0 0;
 }
 
-p {
+.country p {
   margin: 0;
   font-size: 14px;
   text-align: left;
@@ -39,17 +42,21 @@ p {
 
 
 @media (min-width: 768px) {
+  .language_block {
+    margin: 0px auto 0 253px;
+  }
+
   .country {
-    margin: 0 0 -5px 9px;
+    margin: 0 0 -5px 4px;
   }
 
   .country p {
     color: #21272e;
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
   }
   .country img {
-    margin: -11px 7px 0 0;
+    margin: -11px 10px 0 0;
   }
 }
 

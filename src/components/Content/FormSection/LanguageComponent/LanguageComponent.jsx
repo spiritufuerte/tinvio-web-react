@@ -4,7 +4,7 @@ import classes from "./LanguageComponent.module.scss";
 const LanguageComponent = () => {
     return (
         <div className={classes.language_block}>
-            <div>
+            <div className={classes.country_column}>
                 <div className={classes.country}>
                     <img title="SG" src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.3/flags/4x3/sg.svg"/>
                     <p>Singapore</p>
@@ -23,7 +23,7 @@ const LanguageComponent = () => {
                 </div>
 
             </div>
-            <div>
+            <div className={classes.country_column}>
                 <div className={classes.country}>
                     <img title="ID" src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.3/flags/4x3/id.svg"/>
                     <p>Indonesia</p>

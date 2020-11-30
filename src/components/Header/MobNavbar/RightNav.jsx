@@ -19,7 +19,7 @@ const Ul = styled.ul`
     right: 0;
     height: 100vh;
     width:100%;
-    max-width: 500px;
+    max-width:767px;
     margin: 0;
     align-items: center;
     padding-top: 3.5rem;

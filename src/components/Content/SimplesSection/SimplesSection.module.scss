@@ -24,6 +24,7 @@
 .second_text {
   width: 200px;
   margin: 0 auto;
+  line-height: 20px;
 }
 
 .third_text {
@@ -63,7 +64,7 @@
 }
 
 #last_block {
-  margin: 17px 0 0 0;
+  margin: 0;
 }
 
 .line {
@@ -75,7 +76,7 @@
 }
 
 #last_line {
-  margin: 12px auto;
+  margin: 23px auto;
 }
 
 .block h3 {
@@ -113,7 +114,7 @@
   }
 
   .section h2 {
-    padding-top: 86px;
+    padding-top: 89px;
   }
 
   .section h1 {
@@ -131,7 +132,7 @@
   }
 
   #last_block {
-    margin-top: 23px;
+    margin-top: 18px;
   }
 
   #last_block p {
@@ -139,7 +140,7 @@
   }
 
   #last_line {
-    margin: 1px auto;
+    margin: 6px auto;
   }
 }
 

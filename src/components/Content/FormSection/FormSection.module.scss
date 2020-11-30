@@ -1,12 +1,17 @@
+@font-face {
+  font-family: HandOfSeanPro;
+  src: url('../../../fonts/hand_of_sean/Hand_Of_Sean_Demo.ttf');
+}
+
 %textHandsOfStyle {
-  font-size: 23px;
+  font-size: 15px;
   opacity: 0.9;
-  font-family: 'Patrick Hand', cursive;
+  font-family: 'HandOfSeanPro', cursive;
   color: #21272e;
 }
 
 .section {
-  height: 1168px;
+  height: 1214px;
   background-image: linear-gradient(to top, #fafafc, rgba(255, 255, 255, 0.45));
 }
 
@@ -23,7 +28,7 @@
 
 .header_text {
   padding-left: 0;
-  padding-top: 65px;
+  padding-top: 74px;
 }
 
 .header_text h3 {
@@ -43,21 +48,25 @@
   color: #21272e;
 }
 
+br {
+display: none;
+}
+
 .arrow_wrapper img {
   margin-top: 25px;
   margin-left: -94px;
   width: 120px;
   height: 70px;
   object-fit: contain;
-  transform: scale(-1, 1);
+  transform: scale(-1, 0.9);
 }
 
 .arrow_wrapper p {
-  margin: -45px 0px 28px 116px;
+  margin: -34px 0px 28px 114px;
   position: static;
   text-align: left;
   height: 29px;
-  font-size: 23px;
+  font-size: 15px;
   @extend %textHandsOfStyle;
 }
 
@@ -69,12 +78,12 @@
 }
 
 .arrow_lang_wrapper p {
-  margin: -48px 0 22px 47px;
+  margin: -45px 0 22px 47px;
   position: static;
   width: 246px;
   text-align: left;
   height: 29px;
-  font-size: 23px;
+  font-size: 15px;
   @extend %textHandsOfStyle;
 }
 
@@ -105,7 +114,7 @@
 
 @media (min-width: 768px) {
   .section {
-    height: 1124px;
+    height: 1133px;
   }
 
   .section_content {
@@ -115,6 +124,7 @@
   }
 
   .violet_circle {
+    margin-top: 5px;
     width: 426px;
     height: 426px;
     margin-left: -135px;
@@ -131,7 +141,7 @@
     width: 256px;
     height: 256px;
     margin-left: 330px;
-    margin-top: 179px;
+    margin-top: 190px;
   }
 
   .contact_block {
@@ -144,8 +154,8 @@
   }
 
   .header_text h1 {
-    margin: 20px auto;
-    line-height: 40px;
+    margin: 17px auto;
+    line-height: 43px;
     font-size: 32px;
     max-width: 506px;
   }
@@ -160,11 +170,11 @@
   }
 
   .arrow_wrapper p {
-    margin: -41px 0px 35px 69px;
+    margin: -37px 0px 35px 67px;
   }
 
   .language_block {
-    margin: -27px 0 0 0;
+    margin: -26px 0 0 0;
   }
 
   .arrow_lang_wrapper img {
