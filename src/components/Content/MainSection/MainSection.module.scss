@@ -61,30 +61,33 @@ button {
   box-sizing: border-box;
   display: flex;
   min-width: 320px;
-  max-width: 767px;
+  max-width: 727px;
   right: 0;
   left: 0;
   top: 515px;
 }
 
 .left_img_wrapper {
-width: 73%;
+width: 55%;
+  overflow: hidden;
 }
 
 .left_img_wrapper img {
   height: 554px;
   object-fit: cover;
   object-position: 96% 31%;
+  max-width: 100%;
 }
 
 .right_img_wrapper {
-  width: 50%;
-  transform: translate(0, 0);
+  width: 45%;
+  transform: translate(0px, 63px);
 }
 
 .right_img_wrapper img {
   height: 528px;
   object-fit: cover;
+  max-width: 100%;
   object-position: left;
 }
 
@@ -157,6 +160,42 @@ width: 73%;
   .fruits_image_wrapper {
     margin-top: 30px;
     width: 162px;
+  }
+
+  .bg_img_wrapper {
+    position: absolute;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    min-width: 768px;
+    max-width: 1023px;
+    right: 0;
+    left: 0;
+    top: 30px;
+  }
+
+  .left_img_wrapper {
+    width: 55%;
+    overflow: hidden;
+  }
+
+  .left_img_wrapper img {
+    height: 554px;
+    object-fit: cover;
+    object-position: 96% 31%;
+    max-width: 100%;
+  }
+
+  .right_img_wrapper {
+    width: 45%;
+    transform: translate(0px, 63px);
+  }
+
+  .right_img_wrapper img {
+    height: 528px;
+    object-fit: cover;
+    max-width: 100%;
+    object-position: left;
   }
 }
 
