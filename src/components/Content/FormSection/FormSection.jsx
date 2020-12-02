@@ -14,7 +14,7 @@ const FormSection = () => {
                 <div className={classes.contact_block}>
                     <div className={classes.header_text}>
                         <h3>LET'S DO THIS</h3>
-                        <h1>Fill up the form and we’ll get in touch within<br/>a few hours</h1>
+                        <h1>Fill up the form and we’ll get in touch within<br/> a few hours</h1>
                     </div>
                     <div className={classes.form_block}>
                         <div className={classes.arrow_wrapper}>

@@ -29,8 +29,10 @@
 }
 
 .carousel_wrapper {
+  max-width: 712px;
+  margin: 32px auto 0;
   display: flex;
-  margin-top: 32px;
+  overflow: hidden;
   flex-direction: column-reverse;
 }
 
@@ -87,11 +89,6 @@
     height: 1620px;
   }
 
-  .carousel_wrapper {
-    flex-direction: column-reverse;
-    margin-top: 109px;
-  }
-
   .partners_wrapper {
     width: 768px;
     margin: 0 auto;
@@ -130,24 +127,35 @@
     margin: 0 12.5px;
   }
 
+  .carousel_wrapper {
+    flex-direction: column-reverse;
+    margin: 109px auto 0;
+    max-width: 1044px;
+    position: relative;
+    height: 891px;
+  }
+
   .text_block {
-    width: 91%;
     line-height: 41px;
-    align-self: flex-end;
     padding-top: 0;
+    position: absolute;
+    width: 50%;
+    top: 620px;
+    right: 317px;
   }
 
   .text_block h1 {
-    margin: -90px 0 0 -4px;
     text-align: left;
     font-size: 32px;
     width: 290px;
+    margin: 0;
+    position: relative;
   }
 
   .text_block p {
-    margin: 26px 0 0 -4px;
     text-align: left;
     width: 381px;
+    margin: 30px 0 0 0;
   }
 }
 
@@ -186,15 +194,16 @@
   }
 
   .text_block {
-    width: 84%;
-    align-self: center;
+    width: 50%;
     padding-top: 0;
-    position: relative;
-    top: -387px;
+    position: absolute;
+    right: 434px;
+    top: 116px;
   }
 
   .carousel_wrapper {
-    margin-top: 114px;
+    margin: 114px auto 0;
+    max-width: 1300px;
   }
 }
 
@@ -213,17 +222,19 @@
   }
 
   .text_block h1 {
-    margin: -90px 0 0 -25px;
   }
 
   .text_block p {
-    margin: 26px 0 0 -25px;
   }
 
   .images_wrapper img {
     width: 138px;
     height: 98px;
     margin: 0 37px 0 38px;
+  }
+
+  .carousel_wrapper {
+    max-width: 2250px;
   }
 }
 

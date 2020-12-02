@@ -284,15 +284,15 @@ display: none;
   }
 
   .form_block {
-    margin-left: 154px;
+    margin-left: 162px;
   }
 
   .arrow_wrapper p {
-    margin: -41px 0 35px 42px;
+    margin: -41px 0 35px 45px;
   }
 
   .language_block {
-    margin: -327px 0px 91px 98px;
+    margin: -319px 0px 91px 98px;
   }
 
   .arrow_lang_wrapper img {
@@ -300,8 +300,14 @@ display: none;
   }
 
   .arrow_lang_wrapper p {
-    margin: -45px 0 22px -76px;
+    margin: -39px 0 22px -76px;
   }
+
+  br {
+    display: block;
+  }
+
+
 }
 
 

@@ -3,7 +3,6 @@
   position: relative;
   width: 187px;
   margin: 28px auto 0;
-  box-sizing: border-box;
 }
 
 .img_wrapper {
@@ -51,10 +50,10 @@ left: 0;
 
 .carousel_img_bg {
   min-width: 320px;
-  width: 100%;
+  width: 712px;
   height: 394px;
   align-self: flex-end;
-  border-radius: 53px 0 0 53px;
+  border-radius: 53px 53px 53px 53px;
   overflow: hidden;
   background-color: #fcede8;
 }
@@ -75,11 +74,18 @@ left: 0;
 
 @media (min-width: 768px) {
   .carousel {
-    flex-direction: column-reverse;
-  }
+  flex-direction: column-reverse;
+  position: absolute;
+    left: 68px;
+    width: 100%;
+    overflow: hidden;
+    right: 0;
+    margin: 0 auto;
+    top: 0;
+}
 
   .circles_wrapper {
-    margin: 56px 39px 0 auto;
+    margin: 51px 106px 0 auto;
   }
 
   .img_wrapper {
@@ -88,29 +94,32 @@ left: 0;
   }
 
   .carousel_img_bg {
-    width: 91%;
+    width: 1044px;
     height: 592px;
-    margin-left: auto;
   }
 }
 
 @media (min-width: 1024px) {
+  .carousel {
+    right: -21px;
+    left: auto;
+    width: 50%;
+    overflow: hidden;
+  }
+
   .circles_wrapper {
-    position: absolute;
-    margin: -181px 0px 0 75px;
+    margin: 0;
   }
 
   .carousel_img_bg {
-    margin-left: auto;
-    min-width: 490px;
+    width: 777px;
     height: 593px;
-    width: 48%;
   }
 }
 
 @media (min-width: 1280px) {
   .carousel_img_bg {
-    min-width: 747px;
+    width: 1100px;
   }
 }
 

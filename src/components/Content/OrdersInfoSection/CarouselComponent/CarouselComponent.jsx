@@ -48,6 +48,7 @@ const CarouselComponent = (props) => {
                 </div>
                 <div className={`${classes.circle} ${classes.swiper_button_next} swiper-button-next`}/>
             </div>
+
         </div>
     )
 }
