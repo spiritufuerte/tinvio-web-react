@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/tinvio-web-react/static/css/main.a50f2962.chunk.css",
-    "main.js": "/tinvio-web-react/static/js/main.0105d4e4.chunk.js",
-    "main.js.map": "/tinvio-web-react/static/js/main.0105d4e4.chunk.js.map",
+    "main.css": "/tinvio-web-react/static/css/main.9d538201.chunk.css",
+    "main.js": "/tinvio-web-react/static/js/main.e1a022f6.chunk.js",
+    "main.js.map": "/tinvio-web-react/static/js/main.e1a022f6.chunk.js.map",
     "runtime-main.js": "/tinvio-web-react/static/js/runtime-main.6e88527b.js",
     "runtime-main.js.map": "/tinvio-web-react/static/js/runtime-main.6e88527b.js.map",
     "static/css/2.c4ca5c3a.chunk.css": "/tinvio-web-react/static/css/2.c4ca5c3a.chunk.css",
@@ -12,11 +12,12 @@
     "static/js/3.ec52916d.chunk.js.map": "/tinvio-web-react/static/js/3.ec52916d.chunk.js.map",
     "index.html": "/tinvio-web-react/index.html",
     "static/css/2.c4ca5c3a.chunk.css.map": "/tinvio-web-react/static/css/2.c4ca5c3a.chunk.css.map",
-    "static/css/main.a50f2962.chunk.css.map": "/tinvio-web-react/static/css/main.a50f2962.chunk.css.map",
+    "static/css/main.9d538201.chunk.css.map": "/tinvio-web-react/static/css/main.9d538201.chunk.css.map",
     "static/js/2.123e6ca1.chunk.js.LICENSE.txt": "/tinvio-web-react/static/js/2.123e6ca1.chunk.js.LICENSE.txt",
     "static/media/Analytics.51daa9c6.png": "/tinvio-web-react/static/media/Analytics.51daa9c6.png",
     "static/media/Before.1db929ba.png": "/tinvio-web-react/static/media/Before.1db929ba.png",
-    "static/media/MainSection.module.scss": "/tinvio-web-react/static/media/Fruits.4d0ab420.png",
+    "static/media/Boxes.fe823d05.png": "/tinvio-web-react/static/media/Boxes.fe823d05.png",
+    "static/media/Fruits.4d0ab420.png": "/tinvio-web-react/static/media/Fruits.4d0ab420.png",
     "static/media/FormSection.module.scss": "/tinvio-web-react/static/media/Hand_Of_Sean_Demo.077f2890.ttf",
     "static/media/Operational Costs.33c72c09.png": "/tinvio-web-react/static/media/Operational Costs.33c72c09.png",
     "static/media/Orders.11ed473e.png": "/tinvio-web-react/static/media/Orders.11ed473e.png",
@@ -46,7 +47,7 @@
     "static/js/runtime-main.6e88527b.js",
     "static/css/2.c4ca5c3a.chunk.css",
     "static/js/2.123e6ca1.chunk.js",
-    "static/css/main.a50f2962.chunk.css",
-    "static/js/main.0105d4e4.chunk.js"
+    "static/css/main.9d538201.chunk.css",
+    "static/js/main.e1a022f6.chunk.js"
   ]
 }
