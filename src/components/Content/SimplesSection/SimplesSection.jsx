@@ -13,7 +13,7 @@ const SimplesSection = () => {
                 <div className={classes.block} id={classes.first_block}>
                     <img src={questionImg} title='question image' alt='some'/>
                     <h3>Get in Touch With Us</h3>
-                    <p className={classes.first_text}>Full up the form and we'll reach out to you</p>
+                    <p className={classes.first_text}>Fill up the form and we'll reach out to you</p>
                 </div>
                 <div className={classes.line}/>
                 <div className={classes.block} id={classes.second_block}>

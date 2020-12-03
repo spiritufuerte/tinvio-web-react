@@ -3,7 +3,7 @@
 }
 
 .content {
-  padding-top:  35px;
+  padding-top:  34px;
 }
 
 .text_block {
@@ -84,7 +84,7 @@
 @media (min-width: 768px) {
   .section {
     height: 2867px;
-    margin-top: 36px;
+    margin-top: 37px;
   }
 
   .text_block {
@@ -111,6 +111,7 @@
   }
 
   .card {
+    margin-left: 14px;
     width: 411px;
     height: 718px;
     border-radius: 67.6px;
@@ -119,7 +120,7 @@
 
   .card img {
     margin-top: 52px;
-    margin-left: -44px;
+    margin-left: -50px;
     width: 397px;
   }
 
@@ -174,6 +175,7 @@
   }
 
   .card {
+    margin-left: 0;
     width: 265px;
     height: 464px;
     border-radius: 46.8px;
@@ -192,6 +194,7 @@
 
   .card_text_wrapper p {
     font-size: 14px;
+    margin-left: 17px;
   }
 
   .card_text_wrapper img {
@@ -237,7 +240,7 @@
   .card img {
     margin-left: -38px;
     width: 307px;
-    margin-top: 39px;
+    margin-top: 41px;
   }
 
   .card_text_wrapper {

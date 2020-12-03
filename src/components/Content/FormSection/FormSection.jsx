@@ -7,10 +7,10 @@ import LanguageComponent from "./LanguageComponent/LanguageComponent";
 const FormSection = () => {
     return (
         <section className={classes.section}>
-            <div className={classes.violet_circle}></div>
-            <div className={classes.pink_circle}></div>
-            <div className={classes.blue_circle}></div>
             <div className={classes.section_content}>
+                <div className={classes.violet_circle}></div>
+                <div className={classes.pink_circle}></div>
+                <div className={classes.blue_circle}></div>
                 <div className={classes.contact_block}>
                     <div className={classes.header_text}>
                         <h3>LET'S DO THIS</h3>

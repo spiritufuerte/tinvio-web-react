@@ -19,6 +19,7 @@
 .first_text {
   margin: 0 auto;
   width: 290px;
+  line-height: 20px;
 }
 
 .second_text {
@@ -30,10 +31,11 @@
 .third_text {
   margin: 0 auto;
   width: 151px;
+  line-height: 20px;
 }
 
 .section h2 {
-  padding-top: 74px;
+  padding-top: 72px;
   text-align: center;
   font-size: 13px;
   font-weight: bold;
@@ -42,9 +44,9 @@
 }
 
 .section h1 {
-  line-height: 42px;
+  line-height: 39px;
   font-size: 28px;
-  margin: 6px auto 57px;
+  margin: 14px auto 61px;
   width: 300px;
   font-weight: bold;
   text-align: center;
@@ -80,7 +82,7 @@
 }
 
 .block h3 {
-  margin: 6px auto 2px;
+  margin: 7px auto 3px;
   width: 237px;
   font-size: 18px;
   font-weight: bold;
@@ -128,11 +130,11 @@
   }
 
   .block h3 {
-    margin: 4px auto 3px;
+    margin: 7px auto 4px;
   }
 
   #last_block {
-    margin-top: 18px;
+    margin-top: 13px;
   }
 
   #last_block p {
@@ -151,7 +153,7 @@
   }
 
   .section h1 {
-    margin: 6px auto 91px;
+    margin: 13px auto 91px;
   }
 
   .section h2 {
@@ -159,7 +161,7 @@
   }
 
   .block h3 {
-    margin: 21px auto 2px;
+    margin: 21px auto 4px;
   }
 
   .line {
@@ -193,6 +195,10 @@
 @media (min-width: 1280px) {
   .steps_wrapper {
     width: 1100px;
+  }
+
+  .section h2 {
+    padding-top: 80px;
   }
 
   .section h1 {

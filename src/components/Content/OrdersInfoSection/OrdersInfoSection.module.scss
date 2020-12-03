@@ -23,7 +23,7 @@
 .partners_wrapper h1 {
   line-height: 39px;
   text-align: center;
-  margin: 90px 0 0 0;
+  margin: 88px 0 0 0;
   font-size: 28px;
   color: #21272e;
 }
@@ -46,12 +46,12 @@
 }
 
 .text_block p {
-  line-height: 31px;
+  line-height: 30px;
   font-size: 18px;
   position: static;
   color: #787c80;
   font-weight: 600;
-  margin: 16px auto 0;
+  margin: 17px auto 0;
   text-align: center;
   width: 290px;
 }
@@ -79,7 +79,7 @@
 }
 
 .text_block {
-  margin-top: 31px;
+  margin-top: 33px;
   line-height: 39px;
   padding-top: 0;
 }
@@ -198,7 +198,7 @@
     padding-top: 0;
     position: absolute;
     right: 434px;
-    top: 116px;
+    top: 111px;
   }
 
   .carousel_wrapper {
@@ -221,7 +221,8 @@
     height: 550px;
   }
 
-  .text_block h1 {
+  .text_block {
+    right: 563px;
   }
 
   .text_block p {

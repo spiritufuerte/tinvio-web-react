@@ -10,7 +10,7 @@ import cn from "classnames";
   position: ${({open}) => open ? 'fixed' : 'absolute'};
   top: 33px;
   right: 14px;
-  z-index: 20;
+  z-index: 33;
   display: none;
   @media (max-width: 767px) {
     display: flex;

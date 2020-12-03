@@ -85,7 +85,7 @@ left: 0;
 }
 
   .circles_wrapper {
-    margin: 51px 106px 0 auto;
+    margin: 55px 106px 0 auto;
   }
 
   .img_wrapper {
@@ -104,22 +104,40 @@ left: 0;
     right: -21px;
     left: auto;
     width: 50%;
-    overflow: hidden;
+    height: 593px;
+    overflow: initial;
   }
 
   .circles_wrapper {
-    margin: 0;
+    margin: 413px 0 0 -457px;
   }
 
   .carousel_img_bg {
+    position: absolute;
     width: 777px;
     height: 593px;
+    left: 0;
   }
 }
 
 @media (min-width: 1280px) {
-  .carousel_img_bg {
-    width: 1100px;
+  .carousel {
+    left: 50%;
+    right: 0;
+    width: 50%;
+    height: 595px;
+    overflow: initial;
   }
+
+  .carousel_img_bg {
+    position: absolute;
+    width: 1100px;
+    left: -106px;
+  }
+
+  .circles_wrapper {
+    margin: 413px 0 0 -564px;
+  }
+
 }
 
